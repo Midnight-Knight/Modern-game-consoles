@@ -1038,6 +1038,11 @@ body
         width: 40vmin;
         height: 50vmin;
     }
+
+    #section-16 > div > *
+    {
+        width: 40vmin;
+    }
 }
 
 @media (orientation: portrait) and (max-width: 729px)
@@ -1053,6 +1058,11 @@ body
     {
         width: 40vmin;
         height: 70vmin;
+    }
+
+    #section-16 > div > *
+    {
+        width: 40vmin;
     }
 }
 
