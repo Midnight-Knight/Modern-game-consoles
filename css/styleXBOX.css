@@ -1062,7 +1062,7 @@ body
         grid-template-columns: repeat(2, 40vmin);
         grid-template-rows: repeat(2, 70vmin);
         grid-column-gap: 5vmin;
-        height: 270vmin;
+        height: 180vmin;
     }
 
     #section-16 > div
