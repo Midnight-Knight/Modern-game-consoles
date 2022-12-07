@@ -1031,6 +1031,11 @@ body
     height: 30vmax;
 }
 
+#section-16 > div > *
+{
+    width: 30vmax;
+}
+
 @media (orientation: portrait)
 {
     #section-16
