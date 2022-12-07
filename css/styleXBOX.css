@@ -264,6 +264,8 @@ body
     #lblock, #rblock
     {
         align-items: center;
+        height: 40vmax;
+        width: 70vw;
     }
 
     #lblock > p, #rblock > p
@@ -1192,7 +1194,7 @@ body
 {
     background-color: black;
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
-    height: 12vh;
+    height: 16vh;
 }
 
 #luks > p, #luks > h6
@@ -1316,6 +1318,16 @@ body
     border-radius: 2vmax;
     background-color: white;
     box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
+    padding: 0 5vw;
+}
+
+@media (orientation: portrait) and (max-width: 729px)
+{
+    #section-18 > div
+    {
+        height: 55vh;
+        width: 85vw;
+    }
 }
 
 #section-18 > div > *
@@ -1331,11 +1343,10 @@ body
     }
 }
 
-#section-18 > div > h4 + h4
+#section-18 > div > h5 + h5
 {
     font-family: "XBOX";
     color: rgb(16, 124, 16);
-    font-size: 4vmax;
 }
 
 
