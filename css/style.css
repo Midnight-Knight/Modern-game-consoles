@@ -290,27 +290,27 @@ nav > a:hover
     border: 0.2vmin solid white;
 }
 
-nav > a[href="playstation.html"]:hover
+nav > a[href="playstation.html"]:hover,nav > a[href="html/playstation.html"]:hover
 {
     background-color: rgb(0, 55, 145);
 }
 
-nav > a[href="xbox.html"]:hover
+nav > a[href="xbox.html"]:hover,nav > a[href="html/xbox.html"]:hover
 {
     background-color: rgb(16, 124, 16);
 }
 
-nav > a[href="nintendo.html"]:hover
+nav > a[href="nintendo.html"]:hover,nav > a[href="html/nintendo.html"]:hover
 {
     background-color: rgb(230, 0, 18);
 }
 
-nav > a[href="steam.html"]:hover
+nav > a[href="steam.html"]:hover,nav > a[href="html/steam.html"]:hover
 {
     background-color: rgb(0, 0, 0);
 }
 
-nav > a[href="start.html"]:hover
+nav > a[href="start.html"]:hover,nav > a[href="html/start.html"]:hover
 {
     background-color: rgb(75, 75, 75);
 }
