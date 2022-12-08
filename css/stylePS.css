@@ -886,7 +886,7 @@ body
     margin-bottom: 1vh;
 }
 
-#section-10 img
+#section-10 img, #section-11 img
 {
     width: 40vmax;
     height: 30vmax;
@@ -918,10 +918,10 @@ body
     align-items: center;
 }
 
-#section-11 img,#section-14 img
+#section-13 img,#section-14 img
 {
     width: 40vmax;
-    height: 30vmax;
+    height: 25vmax;
 }
 
 @media (orientation: portrait)

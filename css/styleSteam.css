@@ -1,30 +1,30 @@
 body
 {
-    background-image: url(../picture/PS/f0e0852959-2_2780x1200.jpg);
+    background-image: url(../picture/Steam/1624394525_5-phonoteka_org-p-oboi-na-rabochii-stol-stim-krasivo-5.jpg);
 }
 
-#PlayStation::-webkit-scrollbar 
+#Steam::-webkit-scrollbar 
 {
-    background: rgb(0,55,145);
+    background: rgb(27,27,27);
     background-size: auto 100%;
 }
 
 #section-1, #home
 {
     height: 100vmin;
-    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
-#PlayStation > #section-1, #PlayStation > #home
+#Steam > #section-1, #Steam > #home
 {
-    background-color: rgb(255,255,255);
-    color: rgb(0,0,0);
+    background-color: rgb(27,27,27);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 1vmax 1vmax rgba(27, 27, 27,1);
 }
 
-#PlayStation > #home > div
+#Steam > #home > div
 {
     animation: opacity 3s 1;
     display: flex;
@@ -44,7 +44,7 @@ body
     }
 }
 
-#PlayStation > #section-1 > div
+#Steam > #section-1 > div
 {
     width: 100vmin;
     height: 70vmin;
@@ -54,17 +54,8 @@ body
     align-items: center;
 }
 
-@font-face {
-    font-family: "PS";
-    src: url(../font/PsBold-2Oy2w.ttf);
-}
 
-@font-face {
-    font-family: "PS-2";
-    src: url(../font/zrnic___.ttf);
-}
-
-#PlayStation > #home > div
+#Steam > #home > div
 {
     display: flex;
     flex-direction: column;
@@ -72,28 +63,28 @@ body
     align-items: center;
 }
 
-#PlayStation > #home #PSH
+#Steam > #home #PSH
 {
     text-align: center;
 }
 
-#PlayStation > #home h3
+#Steam > #home h3
 {
     text-align: center;
 }
 
 #PSH
 {
-    font-family: 'PS-2';
-    color: rgb(0, 55, 145);
+    font-family: "Steam";
+    color: white;
 }
 
-#PlayStation > #section-1 h2
+#Steam > #section-1 h2
 {
-    font-family: 'PS';
+    font-family: "Steam";
 }
 
-#PlayStation > #section-1 img
+#Steam > #section-1 img
 {
     width: 100vmin;
     height: 50vmin;
@@ -119,7 +110,7 @@ body
     }
 }
 
-#PlayStation > #section-2
+#Steam > #section-2
 {
     display: flex;
     justify-content: flex-start;
@@ -128,7 +119,7 @@ body
     overflow: hidden;
 }
 
-#PlayStation > #section-3
+#Steam > #section-3
 {
     display: flex;
     justify-content: flex-end;
@@ -165,7 +156,7 @@ body
     }
 }
 
-#PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+#Steam > #section-2 > div, #Steam > #section-3 > div
 {
     background-color: white;
     border-radius: 2vmax;
@@ -180,7 +171,7 @@ body
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
-#PlayStation > #section-2 img, #PlayStation > #section-3 img
+#Steam > #section-2 img, #Steam > #section-3 img
 {
     width: 30vmax;
     height: 30vmax;
@@ -190,7 +181,7 @@ body
 {
     width: 35vmax;
     height: 30vmax;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +191,7 @@ body
 
 #lblock > h3
 {
-    font-family: 'PS-2';
+    font-family: "Steam";
 }
 
 #lblock > p
@@ -223,7 +214,7 @@ body
 
 #rblock > h3
 {
-    font-family: 'PS-2';
+    font-family: "Steam";
 }
 
 #rblock > p
@@ -233,7 +224,7 @@ body
 
 @media (orientation: portrait)
 {
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Steam > #section-2 > div, #Steam > #section-3 > div
     {
         flex-direction: column;
     }
@@ -248,7 +239,7 @@ body
         text-align:center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Steam > #section-2 > div, #Steam > #section-3 > div
     {
         width: 52vw;
     }
@@ -256,12 +247,12 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #PlayStation > #section-2, #PlayStation > #section-3
+    #Steam > #section-2, #Steam > #section-3
     {
         justify-content: center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Steam > #section-2 > div, #Steam > #section-3 > div
     {
         flex-direction: column;
     }
@@ -276,7 +267,7 @@ body
         text-align:center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Steam > #section-2 > div, #Steam > #section-3 > div
     {
         width: 80vw;
     }
@@ -286,9 +277,9 @@ body
 {
     width: calc(5vw * 16);
     height: calc(5vw * 9);
-    background-color: white;
+    background-color: rgb(66,66,66);
     border-radius: 2vmax;
-    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
+    box-shadow: 0 0 1vmax 1vmax rgba(23, 23, 23,1);
 }
 
 @media (orientation: portrait) and (max-width: 729px)
@@ -307,11 +298,11 @@ body
 
 #section-5
 {
-    background-image: url("../picture/PS/3txXKjRvj3U.jpg");
+    background-image: url("../picture/Steam/steam-library.jpg");
     background-size: cover;
     background-position: center;
     height: 50vmin;
-    box-shadow: 0 0 1vmax 1vmax rgba(0,0,0, 0.5);
+    box-shadow: 0 0 1vw 1vw rgba(23,23,23,1);
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -332,12 +323,12 @@ body
 #pngh4 > *
 {
     color: white;
-    text-shadow: 1px 1px rgb(0, 55, 145), 1px -1px rgb(0, 55, 145), -1px 1px rgb(0, 55, 145), -1px -1px rgb(0, 55, 145), 3px 3px 6px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px rgb(23, 23, 23), 1px -1px rgb(23, 23, 23), -1px 1px rgb(23, 23, 23), -1px -1px rgb(23, 23, 23), 3px 3px 6px rgba(0,0,0,0.5);
 }
 
 #section-6, #section-7
 {
-    background-color: white;
+    background-color: rgb(66,66,66);
 }
 
 
@@ -359,7 +350,7 @@ body
 {
     width: 22vw;
     height: 35vw;
-    background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
+    background: linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0.9),rgba(0,0,0,0.8),rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5), rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0));
     border-radius: 0 0 1vw 1vw;
     transform: translateY(35vw);
     transition: 2s transform;
@@ -382,8 +373,8 @@ body
 {
     width: 9vw;
     height: 3vw;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: rgb(23,23,23);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,7 +388,7 @@ body
 
 .PsCardExc > div > a:hover
 {
-    outline-color: rgba(255,0,0,1);
+    outline-color: rgba(255,255,255,1);
 }
 
 .PsCardExc:hover > div
@@ -412,6 +403,7 @@ body
     align-items: center;
     height: calc(35vw * 5 + 6vw * 4);
     overflow: hidden;
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
 }
 
 #container
@@ -425,12 +417,12 @@ body
 
 #Other a
 {
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(66,66,66);
 }
 
 #Other a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: white;
 }
 
 @media (orientation: portrait)
@@ -442,7 +434,6 @@ body
         border-radius: 1vw;
         background-size: cover;
         background-position: center;
-        box-shadow: 0 0 1vw 1vw rgba(0,0,0, 0.5);
         display: flex;
         flex-direction: column-reverse;
         overflow: hidden;
@@ -452,7 +443,6 @@ body
     {
         width: 45vw;
         height: 65vw;
-        background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
         border-radius: 0 0 1vw 1vw;
         transform: translateY(65vw);
         transition: 2s transform;
@@ -467,7 +457,6 @@ body
         margin-left: 1vw;
         margin-bottom: 1vh;
         margin-right: 1vw;
-        color: white;
         text-align: left;
     }
 
@@ -475,8 +464,6 @@ body
     {
         width: 12vw;
         height: 4vw;
-        background-color: white;
-        color: black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -552,7 +539,6 @@ body
         border-radius: 5vw;
         background-size: cover;
         background-position: center;
-        box-shadow: 0 0 1vw 1vw rgba(0,0,0, 0.5);
         display: flex;
         flex-direction: column-reverse;
         overflow: hidden;
@@ -562,7 +548,6 @@ body
     {
         width: 80vw;
         height: 120vw;
-        background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
         border-radius: 0 0 5vw 5vw;
         transform: translateY(120vw);
         transition: 2s transform;
@@ -573,112 +558,116 @@ body
     }
 }
 
-#LastGuardin
+#Apex
 {
-    background-image: url("../picture/PS/последний страж обрезанный.png");
-    background-position: left;
+    background-image: url("../picture/Steam/library_600x900.jpg");
 }
 
-#Ragnarok
+#Elden
 {
-    background-image: url("../picture/PS/рагнарёк шакальный.png");
+    background-image: url("../picture/Steam/library_600x900 (1).jpg");
 }
 
-#UntilDown
+#Valheim
 {
-    background-image: url("../picture/PS/унитаз даун.jpg");
-    background-position: 0%;
+    background-image: url("../picture/Steam/library_600x900 (2).jpg");
 }
 
-#Blodborne
+#WarThunder
 {
-    background-image: url("../picture/PS/blodborne.jpg");
+    background-image: url("../picture/Steam/library_600x900 (3).jpg");
 }
 
-#DaysGone
+#Dino
 {
-    background-image: url("../picture/PS/days-gone.jpg");
+    background-image: url("../picture/Steam/library_600x900 (4).jpg");
 }
 
-#DeathStranding
+#RimWorld
 {
-    background-image: url("../picture/PS/death stranding.png");
+    background-image: url("../picture/Steam/library_600x900 (5).jpg");
 }
 
-#DemonSouls
+#NBA
 {
-    background-image: url("../picture/PS/demon souls.jpg");
+    background-image: url("../picture/Steam/library_600x900 (6).jpg");
 }
 
-#Detroit
+#Stray
 {
-    background-image: url("../picture/PS/detroit.jpg");
+    background-image: url("../picture/Steam/library_600x900 (7).jpg");
 }
 
-#Ghost
+#Witcher3
 {
-    background-image: url("../picture/PS/ghost.jpg");
+    background-image: url("../picture/Steam/library_600x900 (8).jpg");
 }
 
-#Horizon
+#Disco
 {
-    background-image: url("../picture/PS/horizon.jpg");
+    background-image: url("../picture/Steam/library_600x900 (9).jpg");
 }
 
-#Ratchet
+#TheLongDark
 {
-    background-image: url("../picture/PS/ratchet-and-clank-rift-apart-b0-800x1280.jpg");
+    background-image: url("../picture/Steam/library_600x900 (10).jpg");
 }
 
-#Returnal
+#NoManSky
 {
-    background-image: url("../picture/PS/returnal.jpg");
+    background-image: url("../picture/Steam/library_600x900 (11).jpg");
 }
 
-#ShadowOfColosus
+#Portal
 {
-    background-image: url("../picture/PS/shadow-of-the-colossus.jpg");
+    background-image: url("../picture/Steam/Portal2.jpg");
 }
 
-#SpiderMam
+#GTAV
 {
-    background-image: url("../picture/PS/spider-man-2018-spider-man.jpg");
+    background-image: url("../picture/Steam/GTAV.jpg");
 }
 
-#BlackSpiderMam
+#Dota2
 {
-    background-image: url("../picture/PS/marvel-spider-man-miles-morales-iz-1280x2120.jpg");
+    background-image: url("../picture/Steam/Dota2.webp");
 }
 
-#TheLastOffAss2
+#RedDeadRedemption2
 {
-    background-image: url("../picture/PS/the last of ass 2.jpg");
+    background-image: url("../picture/Steam/RDR2.jpg");
 }
 
-#Uncharted
+#Counter-StrikeGo
 {
-    background-image: url("../picture/PS/uncharted.jpg");
+    background-image: url("../picture/Steam/CSGO-3.jpg");
 }
 
-#GranTurismo
+#FNV
 {
-    background-image: url("../picture/PS/GTS7.jpg");
+    background-image: url("../picture/Steam/FNV.jpg");
 }
 
-#Astro
+#HL2
 {
-    background-image: url("../picture/PS/APR.jpg");
+    background-image: url("../picture/Steam/HL2.jpg");
 }
 
 #Other
 {
-    background-image: url("../picture/PS/psstore.jpg");
+    background-image: url("../picture/Steam/1631003912_496713_sizes.jpg");
+}
+
+#Other a
+{
+    background-color: white;
+    color: black;
 }
 
 #section-7
 {
-    background-color: black;
-    box-shadow: 0 0 1vmax 1vmax rgba(0,0,0, 0.5);
+    background-color: rgb(66,66,66);
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
     overflow: hidden;
 }
 
@@ -694,12 +683,13 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
 }
 
 #section-7 > div > h1
 {
     color: white;
-    font-family: "PS-2";
+    font-family: "Steam";
 }
 
 #bigH4
@@ -726,10 +716,10 @@ body
 {
     width: 60vw;
     height: 60vh;
-    background-color: white;
+    background-color: rgb(66,66,66);
     border-radius: 2vmax;
     margin-left: 10vw;
-    box-shadow: 0 0 1vmax 1vmax rgba(255,255,255, 0.5);
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -748,6 +738,7 @@ body
 #boxPsPlusH > h2, #boxPsPlusH > p
 {
     text-align: left;
+    color: white;
 }
 
 @media (orientation: portrait) and (max-width: 729px)
@@ -779,8 +770,8 @@ body
 
 #boxPsPlusH > h2 + h2
 {
-    font-family: "PS-2";
-    color: rgb(245,216,73);
+    font-family: "Steam";
+    color: white;
     margin-top: 0;
 }
 
@@ -791,8 +782,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 112, 204);
-    color: white;
+    background-color: white; 
+    color: rgb(66,66,66); 
     border-radius: 5vmin;
     outline: 0.3vmin solid rgba(0,0,0,0);
     border: none;
@@ -803,7 +794,7 @@ body
 
 #boxPsPlusH > a:hover
 {
-    outline-color: rgba(0, 112, 204,1);
+    outline-color: white;
 }
 
 #boxPsPlusH > *
@@ -819,7 +810,7 @@ body
 
 #section-9, #section-12, #section-15
 {
-    background-color: black;
+    background-color: rgb(66,66,66);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -840,12 +831,13 @@ body
 
 #section-10, #section-13
 {
-    background-color: rgb(33,33,33);
+    background-color: rgb(66,66,66);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     height: 80vh;
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
 }
 
 #section-10 > div, #section-13 > div
@@ -880,7 +872,7 @@ body
 
 #section-10 > div > *,#section-13 > div > *
 {
-    color: white;
+    color: white; 
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -889,17 +881,18 @@ body
 #section-10 img
 {
     width: 40vmax;
-    height: 30vmax;
+    height: 25vmax;
 }
 
 #section-11,#section-14 
 {
-    background-color: black;
+    background-color: rgb(66,66,66);
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
     height: 80vh;
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
 }
 
 #section-11 > div,#section-14 > div
@@ -918,10 +911,10 @@ body
     align-items: center;
 }
 
-#section-11 img,#section-14 img
+#section-11 img,#section-14 img,#section-13 img
 {
     width: 40vmax;
-    height: 30vmax;
+    height: 25vmax;
 }
 
 @media (orientation: portrait)
@@ -948,12 +941,12 @@ body
 
 #section-12, #section-13, #section-14
 {
-    background-color: rgb(245,216,73);
+    background-color: rgb(66,66,66);
 }
 
 #section-12 *, #section-13 *, #section-14 *, #section-12 > div *, #section-13 > div *, #section-14 > div *
 {
-    color: black;
+    color: white; 
 }
 
 #section-13 img
@@ -964,13 +957,13 @@ body
 
 #section-16
 {
-    box-shadow: 0 0 1vw 1vw rgba(255,255,255,0.5);
+    box-shadow: 0 0 1vw 1vw rgba(66,66,66,1);
 }
 
 #section-15 *, #section-16 *, #section-15, #section-16
 {
-    background-color: white;
-    color: black;
+    background-color: rgb(66,66,66); 
+    color: white; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1118,7 +1111,7 @@ body
     width: 25vw;
     height: 60vh;
     border-radius: 1vmax;
-    background-color: white;
+    background-color: rgb(66,66,66); 
     box-shadow: 0 0 1vmax 1vmax rgba(255,255,255, 0.5);
     display: flex;
     flex-direction: column;
@@ -1176,35 +1169,35 @@ body
 
 #extra > *, #base > *
 {
-    color: black;
+    color: white; 
 }
 
 #section-17 #luks
 {
-    background-color: black;
+    background-color: rgb(66,66,66); 
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
     height: 12vh;
 }
 
 #luks > h6
 {
-    color: rgb(245,216,73);
+    color: white; 
 }
 
 #luks > p
 {
-    color: white;
+    color: white; 
 }
 
 #extra
 {
-    background-color: rgb(245,216,73);
+    background-color: rgb(66,66,66);
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(245,216,73, 0.5);
 }
 
 #base
 {
-    background-color: white;
+    background-color: rgb(66,66,66);
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(186,186,186,0.5);
     z-index: 2;
 }
@@ -1264,35 +1257,35 @@ body
 
 #section-17 > #blockLuks > a
 {
-    background-color: black;
-    color: rgb(245,216,73);
+    background-color: rgb(66,66,66); 
+    color: white; 
 }
 
 #section-17 > #blockLuks > a:hover
 {
-    outline-color: black;
+    outline-color: white; 
 }
 
 #section-17 > #blockExtra > a
 {
-    background-color: rgb(245,216,73);
-    color: black;
+    background-color: rgb(66,66,66); 
+    color: white; 
 }
 
 #section-17 > #blockExtra > a:hover
 {
-    outline-color: rgb(245,216,73);
+    outline-color: white; 
 }
 
 #section-17 > #blockBase > a
 {
-    background-color: rgb(0, 112, 204);
-    color: white;
+    background-color: rgb(66,66,66); 
+    color: white; 
 }
 
 #section-17 > #blockBase > a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: white; 
 }
 
 #section-18 > div
@@ -1304,13 +1297,14 @@ body
     width: 70vw;
     height: 40vh;
     border-radius: 2vmax;
-    background-color: white;
-    box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
+    background-color: rgb(66,66,66); 
+    box-shadow: 0 0 1vmax 1vmax rgba(66,66,66,1);
 }
 
 #section-18 > div > *
 {
     text-align: center;
+    color: white;
 }
 
 @media (orientation: portrait)
@@ -1323,8 +1317,8 @@ body
 
 #section-18 > div > h4 + h4
 {
-    font-family: "PS-2";
-    color: rgb(0, 112, 204);
+    font-family: "Steam";
+    color: white; 
     font-size: 4vmax;
 }
 
@@ -1339,14 +1333,19 @@ body
 {
     width: 70vw;
     height: 40vh;
-    background-color: white;
+    background-color: rgb(66,66,66); 
     border-radius: 2vmax;
-    box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
+    box-shadow: 0 0 1vmax 1vmax rgba(66,66,66,1);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 5vh;
+}
+
+.section-hard *
+{
+    color: white;
 }
 
 .section-hard > div
@@ -1532,6 +1531,26 @@ body
     overflow: hidden;
 }
 
+#section-25
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+#section-26
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
 #block-ps5, #block-ps5DE
 {
     width: 60vw;
@@ -1593,7 +1612,6 @@ body
     width: 6vw;
     height: 2vw;
     border-radius: 3vw;
-    box-shadow: 0 0 0.3vw rgb(122,122,122);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1601,6 +1619,12 @@ body
     outline: 0.2vw solid rgba(0,0,0,0);
     outline-offset: 0.3vw;
     transition: 2s outline-color;
+}
+
+#block-ps5 > div > div > div
+{
+    background-color: rgb(27, 27, 27);
+    color: white;
 }
 
 #block-ps5 > div > div
@@ -1623,7 +1647,7 @@ body
 
 #block-ps5 > div > a, #block-ps5DE > div > a
 {
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(27, 27, 27);
     color: white;
     width: 12vw;
     height: 3vw;
@@ -1660,7 +1684,7 @@ body
     #block-ps5 > div > div > div, #block-ps5DE > div > div > div
     {
         height: 3vw;
-        width: 9vw;
+        width: 9.5vw;
     }
 }
 
@@ -1714,13 +1738,19 @@ body
     #block-ps5 > div > div > div, #block-ps5DE > div > div > div
     {
         height: 4vw;
-        width: 12vw;
+        width: 14vw;
     }
 
     #block-ps5 > div > img, #block-ps5 > div, #block-ps5DE > div > img, #block-ps5DE > div
     {
         width: 70vw;
         height: 70vw;
+    }
+
+    #block-ps5 > div > img
+    {
+        width: 50vw;
+        height: 50vw;
     }
 }
 
@@ -1736,12 +1766,131 @@ body
 
 #block-ps5 > div > div > div:hover,#block-ps5DE > div > div > div:hover
 {
-    outline-color: rgb(186,186,186);
+    outline-color: rgb(27,27,27);
 }
 
 #block-ps5 > div > a:hover, #block-ps5DE > div > a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: rgb(27, 27, 27);
+}
+
+#section-28
+{
+    height: 90vw;
+}
+
+#section-28 > div
+{
+    width: 30vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 3vw;
+}
+
+#section-28 > div > img
+{
+    width: 25vw;
+    height: 15vw;
+}
+
+#section-28 > div > div
+{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3vw;
+}
+
+#section-28 > div > div > div
+{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 3vw;
+    outline: 0.2vw solid rgba(0,0,0,0);
+    outline-offset: 0.3vw;
+    transition: 2s;
+}
+
+#black
+{
+    background-color: rgb(27, 27, 27);
+}
+
+#black:hover
+{
+    outline-color: rgb(27, 27, 27);
+}
+
+#section-28 > div > a
+{
+    width: 8vw;
+    height: 3vw;
+    border-radius: 3vw;
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    outline-offset: 0.3vw;
+    outline: 0.2vw solid rgba(0,0,0,0);
+    transition: 2s;
+}
+
+#section-28 > div > a:hover
+{
+    outline-color: rgb(27, 27, 27);
+}
+
+@media (orientation: portrait)
+{
+    #section-28 > div
+    {
+        height: 40vw;
+        width: 50vw;
+    }
+
+    #section-28 > div > div > div
+    {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    #section-28 > div > a
+    {
+        width: 10vw;
+        height: 4vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 729px)
+{
+    #section-28 > div
+    {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    #section-28 > div > div
+    {
+        height: 4vw;
+    }
+
+    #section-28 > div > div > div
+    {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    #section-28 > div > a
+    {
+        width: 20vw;
+        height: 6vw;
+    }
 }
 
 #section-27 > div
@@ -1776,246 +1925,4 @@ body
     {
         text-align: center;
     }
-}
-
-#section-28
-{
-    height: 200vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-28 > div
-{
-    display: grid;
-    grid-template-columns: repeat(3, 25vw);
-    grid-template-rows: repeat(3, 50vh);
-    grid-row-gap: 10vh;
-    grid-column-gap: 6vw;
-}
-
-#section-28 > div > div
-{
-    background-color: white;
-    border-radius: 2vmax;
-    box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
-}
-
-#section-28 > div > div > div
-{
-    width: 25vw;
-    height: 4vmax;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-@media (orientation: portrait)
-{
-    #section-28
-    {
-        height: 150vh;
-    }
-
-    #section-28 > div
-    {
-        grid-template-columns: repeat(3, 28vw);
-        grid-template-rows: repeat(3, 40vh);
-        grid-row-gap: 10vh;
-        grid-column-gap: 6vw;
-    }
-}
-
-@media (orientation: portrait) and (max-width: 729px)
-{
-    #section-28
-    {
-        height: 550vh;
-    }
-
-    #section-28 > div
-    {
-        grid-template-columns: repeat(1, 80vw);
-        grid-template-rows: repeat(9, 50vh);
-        grid-row-gap: 10vh;
-        grid-column-gap: 6vw;
-    }
-
-    #section-28 > div > div > div
-    {
-        width: 60vw;
-    }
-}
-
-#section-28 > div > div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1.5vmax;
-    overflow: hidden;
-}
-
-#section-28 > div > div > img
-{
-    width: 23vmax;
-    height: 15vmax;
-    border-radius: 2vmax;
-    overflow: hidden;
-}
-
-#section-28 > div > div > h6
-{
-    text-align: center;
-}
-
-#section-28 > div > div > a
-{
-    width: 15vmax;
-    height: 3vmax;
-    border-radius: 3vmax;
-    background-color: rgb(0, 112, 204);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    outline: 0.2vmax solid rgba(0,0,0,0);
-    outline-offset: 0.3vmax;
-    transition: 2s outline-color;
-}
-
-#section-28 > div > div > a:hover
-{
-    outline-color: rgb(0, 112, 204);
-}
-
-#section-28 > div > div > div > div
-{
-    width: 2vmax;
-    height: 2vmax;
-    border-radius: 2vmax;
-    transition: 1.5s outline-color;
-    outline: 0.2vmax solid rgba(0,0,0,0);
-    outline-offset: 0.3vmax;
-    color: rgb(0, 112, 204);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-28 #white
-{
-    background-color: white;
-    box-shadow: 0 0 0.3vmax rgb(122,122,122);
-}
-
-#section-28 #black
-{
-    background-color: black;
-    box-shadow: 0 0 0.3vmax rgb(0,0,0);
-}
-
-#section-28 #red
-{
-    background-color: #a91d4e;
-    box-shadow: 0 0 0.3vmax #a91d4e;
-}
-
-#section-28 #blue
-{
-    background-color: aqua;
-    box-shadow: 0 0 0.3vmax aqua;
-}
-
-#section-28 #pink
-{
-    background-color: rgb(235,62,153);
-    box-shadow: 0 0 0.3vmax rgb(235,62,153);
-}
-
-#section-28 #purple
-{
-    background-color: rgb(71,45,150);
-    box-shadow: 0 0 0.3vmax rgb(71,45,150);
-}
-
-#section-28 #gray
-{
-    background-color: #8A8A8A;
-    box-shadow: 0 0 0.3vmax #8A8A8A;
-}
-
-#section-28 #white:hover
-{
-    outline-color: rgba(122,122,122, 0.5);
-}
-
-#section-28 #black:hover
-{
-    outline-color: black;
-}
-
-#section-28 #red:hover
-{
-    outline-color: #a91d4e;
-}
-
-#section-28 #blue:hover
-{
-    outline-color: aqua;
-}
-
-#section-28 #pink:hover
-{
-    outline-color: rgb(235,62,153);
-}
-
-#section-28 #purple:hover
-{
-    outline-color: rgb(71,45,150);
-}
-
-#section-28 #gray:hover
-{
-    outline-color: #8A8A8A;
-}
-
-#section-28 #DualCharge > img
-{
-    width: 19vmax;
-    height: 15vmax;
-}
-
-#section-28 #DualSenseEdge > img
-{
-    width: 15vmax;
-    height: 18vmax;
-}
-
-#section-28 #DualSenseEdge > div > div
-{
-    width: 8vmax;
-}
-
-#section-28 #Pulse3D
-{
-    overflow: hidden;
-}
-
-#section-28 #Pulse3D > img
-{
-    width: 27vmax;
-}
-
-#section-28 #MediaRemote > img
-{
-    width: 21vmax;
-}
-
-#section-28 #PS5Panel > img
-{
-    width: 19vmax;
 }
