@@ -1040,7 +1040,7 @@ body
 
 #section-17 > div
 {
-    width: 25vmax;
+    width: 30vmax;
     height: 30vmax;
 }
 
@@ -1050,12 +1050,14 @@ body
     {
         grid-template-columns: repeat(2, 50vmin);
         grid-template-rows: repeat(2, 50vmin);
+        grid-column-gap: 5vmin;
+        grid-row-gap: 15vmin;
         height: 160vmin;
     }
 
     #section-17 > div
     {
-        width: 40vmin;
+        width: 50vmin;
         height: 50vmin;
     }
 
@@ -1071,12 +1073,14 @@ body
     {
         grid-template-columns: repeat(2, 50vmin);
         grid-template-rows: repeat(2, 70vmin);
+        grid-column-gap: 5vmin;
+        grid-row-gap: 25vmin;
         height: 180vmin;
     }
 
     #section-17 > div
     {
-        width: 40vmin;
+        width: 50vmin;
         height: 70vmin;
     }
 
