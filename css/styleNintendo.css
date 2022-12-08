@@ -1764,31 +1764,26 @@ body
     {
         flex-direction: column-reverse;
         margin-right: 0vw;
-        width: 80vw;
-        height: 75vh;
+        width: 85vw;
+        height: 80vh;
     }
 
     #block-ps5 > div,#block-ps5-2 > div, #block-ps5DE > div
     {
         align-items: center;
-        width: 70vw;
+        width: 75vw;
     }
 
     #block-ps5 > div > *,#block-ps5-2 > div > *,#block-ps5DE > div > *
     {
         text-align: center;
-        width: 70vw;
+        width: 75vw;
     }
 
     #block-ps5 > div > a,#block-ps5-2 > div > a,#block-ps5DE > div > a
     {
         height: 6vw;
         width: 18vw;
-    }
-
-    #block-ps5DE > div > a
-    {
-        margin-top: 4vw;
     }
 
     #block-ps5 > div > div,#block-ps5-2 > div > div, #block-ps5DE > div > div
