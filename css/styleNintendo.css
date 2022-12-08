@@ -1,11 +1,12 @@
 body
 {
-    background-image: url(../picture/PS/f0e0852959-2_2780x1200.jpg);
+    background-image: url(../picture/Nintendo/551749-Club_Nintendo-Nintendo-Nintendo_3DS-Nintendo_Switch-video_games-Super_Mario.jpg);
+    background-position: left;
 }
 
-#PlayStation::-webkit-scrollbar 
+#Nintendo::-webkit-scrollbar 
 {
-    background: rgb(0,55,145);
+    background: rgb(230, 0, 18);
     background-size: auto 100%;
 }
 
@@ -15,7 +16,7 @@ body
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
-#PlayStation > #section-1, #PlayStation > #home
+#Nintendo > #section-1, #Nintendo > #home
 {
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
@@ -24,7 +25,7 @@ body
     align-items: center;
 }
 
-#PlayStation > #home > div
+#Nintendo > #home > div
 {
     animation: opacity 3s 1;
     display: flex;
@@ -44,7 +45,7 @@ body
     }
 }
 
-#PlayStation > #section-1 > div
+#Nintendo > #section-1 > div
 {
     width: 100vmin;
     height: 70vmin;
@@ -55,16 +56,11 @@ body
 }
 
 @font-face {
-    font-family: "PS";
-    src: url(../font/PsBold-2Oy2w.ttf);
+    font-family: "Nintendo";
+    src: url(../font/RoSpritendoSemiboldBeta-vmVwZ.otf);
 }
 
-@font-face {
-    font-family: "PS-2";
-    src: url(../font/zrnic___.ttf);
-}
-
-#PlayStation > #home > div
+#Nintendo > #home > div
 {
     display: flex;
     flex-direction: column;
@@ -72,28 +68,28 @@ body
     align-items: center;
 }
 
-#PlayStation > #home #PSH
+#Nintendo > #home #PSH
 {
     text-align: center;
 }
 
-#PlayStation > #home h3
+#Nintendo > #home h3
 {
     text-align: center;
 }
 
 #PSH
 {
-    font-family: 'PS-2';
-    color: rgb(0, 55, 145);
+    font-family: "Nintendo";
+    color: rgb(230, 0, 18);
 }
 
-#PlayStation > #section-1 h2
+#Nintendo > #section-1 h2
 {
-    font-family: 'PS';
+    font-family: "Nintendo";
 }
 
-#PlayStation > #section-1 img
+#Nintendo > #section-1 img
 {
     width: 100vmin;
     height: 50vmin;
@@ -119,7 +115,7 @@ body
     }
 }
 
-#PlayStation > #section-2
+#Nintendo > #section-2,#Nintendo > #section-4
 {
     display: flex;
     justify-content: flex-start;
@@ -128,7 +124,7 @@ body
     overflow: hidden;
 }
 
-#PlayStation > #section-3
+#Nintendo > #section-3
 {
     display: flex;
     justify-content: flex-end;
@@ -165,7 +161,7 @@ body
     }
 }
 
-#PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+#Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
 {
     background-color: white;
     border-radius: 2vmax;
@@ -180,7 +176,7 @@ body
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
-#PlayStation > #section-2 img, #PlayStation > #section-3 img
+#Nintendo > #section-2 img, #Nintendo > #section-3 img, #Nintendo > #section-4 img
 {
     width: 30vmax;
     height: 30vmax;
@@ -198,9 +194,9 @@ body
     margin-right: 1vw;
 }
 
-#lblock > h3
+#lblock > h6
 {
-    font-family: 'PS-2';
+    font-family: "Nintendo";
 }
 
 #lblock > p
@@ -221,9 +217,10 @@ body
     margin-left: 1vw;
 }
 
-#rblock > h3
+#rblock > h6
 {
-    font-family: 'PS-2';
+    font-family: "Nintendo";
+    text-align: right;
 }
 
 #rblock > p
@@ -233,7 +230,7 @@ body
 
 @media (orientation: portrait)
 {
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
     {
         flex-direction: column;
     }
@@ -248,7 +245,7 @@ body
         text-align:center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
     {
         width: 52vw;
     }
@@ -256,12 +253,12 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #PlayStation > #section-2, #PlayStation > #section-3
+    #Nintendo > #section-2, #Nintendo > #section-3, #Nintendo > #section-4
     {
         justify-content: center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
     {
         flex-direction: column;
     }
@@ -276,13 +273,22 @@ body
         text-align:center;
     }
 
-    #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
+    #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
     {
         width: 80vw;
     }
 }
 
-#section-4 > video
+#section-5
+{
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section-5 > video
 {
     width: calc(5vw * 16);
     height: calc(5vw * 9);
@@ -293,21 +299,21 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-4
+    #section-5
     {
-        height: 60vh;
+        height: 180vh;
     }
 
-    #section-4 > video
+    #section-5 > video
     {
         width: calc(6vw * 16);
         height: calc(6vw * 9);
     }
 }
 
-#section-5
+#section-6
 {
-    background-image: url("../picture/PS/3txXKjRvj3U.jpg");
+    background-image: url("../picture/Nintendo/b4fee5_12.jpg");
     background-size: cover;
     background-position: center;
     height: 50vmin;
@@ -332,10 +338,10 @@ body
 #pngh4 > *
 {
     color: white;
-    text-shadow: 1px 1px rgb(0, 55, 145), 1px -1px rgb(0, 55, 145), -1px 1px rgb(0, 55, 145), -1px -1px rgb(0, 55, 145), 3px 3px 6px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px rgb(230, 0, 18), 1px -1px rgb(230, 0, 18), -1px 1px rgb(230, 0, 18), -1px -1px rgb(230, 0, 18), 3px 3px 6px rgba(0,0,0,0.5);
 }
 
-#section-6, #section-7
+#section-7, #section-8
 {
     background-color: white;
 }
@@ -359,7 +365,7 @@ body
 {
     width: 22vw;
     height: 35vw;
-    background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
+    background: linear-gradient(0deg, rgba(230, 0, 18,1),rgba(230, 0, 18,0.9),rgba(230, 0, 18,0.8),rgba(230, 0, 18,0.7),rgba(230, 0, 18,0.6),rgba(230, 0, 18,0.5),rgba(230, 0, 18,0.3),rgba(230, 0, 18,0.2),rgba(230, 0, 18,0.1),rgba(230, 0, 18,0));
     border-radius: 0 0 1vw 1vw;
     transform: translateY(35vw);
     transition: 2s transform;
@@ -405,7 +411,7 @@ body
     transform: translateY(0);
 }
 
-#section-6
+#section-7
 {
     display: flex;
     justify-content: center;
@@ -425,12 +431,12 @@ body
 
 #Other a
 {
-    background-color: rgb(0, 112, 204);
+    background-color: red;
 }
 
 #Other a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: red;
 }
 
 @media (orientation: portrait)
@@ -452,7 +458,7 @@ body
     {
         width: 45vw;
         height: 65vw;
-        background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
+        background: linear-gradient(0deg, rgba(230, 0, 18,1),rgba(230, 0, 18,0.9),rgba(230, 0, 18,0.8),rgba(230, 0, 18,0.7),rgba(230, 0, 18,0.6),rgba(230, 0, 18,0.5),rgba(230, 0, 18,0.3),rgba(230, 0, 18,0.2),rgba(230, 0, 18,0.1),rgba(230, 0, 18,0));
         border-radius: 0 0 1vw 1vw;
         transform: translateY(65vw);
         transition: 2s transform;
@@ -489,7 +495,7 @@ body
         transform: translateY(0);
     }
 
-    #section-6
+    #section-7
     {
         display: flex;
         justify-content: center;
@@ -507,17 +513,17 @@ body
         grid-row-gap: 4vw;
     }
 
-    #section-6 #container .PsCardExc *
+    #section-7 #container .PsCardExc *
     {
         font-size: 4vw;
     }
 
-    #section-6 #container .PsCardExc h6
+    #section-7 #container .PsCardExc h6
     {
         font-size: 6vw;
     }
 
-    #section-6 #container .PsCardExc a
+    #section-7 #container .PsCardExc a
     {
         width: 30vw;
         height: 8vw;
@@ -527,7 +533,7 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-6
+    #section-7
     {
         display: flex;
         justify-content: center;
@@ -562,7 +568,7 @@ body
     {
         width: 80vw;
         height: 120vw;
-        background: linear-gradient(0deg, rgba(0, 55, 145,1),rgba(0, 55, 145,0.9),rgba(0, 55, 145,0.8),rgba(0, 55, 145,0.7),rgba(0, 55, 145,0.6),rgba(0, 55, 145,0.5),rgba(0, 55, 145,0.3),rgba(0, 55, 145,0.2),rgba(0, 55, 145,0.1),rgba(0, 55, 145,0));
+        background: linear-gradient(0deg, rgba(230, 0, 18,1),rgba(230, 0, 18,0.9),rgba(230, 0, 18,0.8),rgba(230, 0, 18,0.7),rgba(230, 0, 18,0.6),rgba(230, 0, 18,0.5),rgba(230, 0, 18,0.3),rgba(230, 0, 18,0.2),rgba(230, 0, 18,0.1),rgba(230, 0, 18,0));
         border-radius: 0 0 5vw 5vw;
         transform: translateY(120vw);
         transition: 2s transform;
@@ -573,122 +579,120 @@ body
     }
 }
 
-#LastGuardin
+#Bayonetta
 {
-    background-image: url("../picture/PS/последний страж обрезанный.png");
-    background-position: left;
+    background-image: url("../picture/Nintendo/Bayonetta 3.jpg");
 }
 
-#Ragnarok
+#MarioRabbids
 {
-    background-image: url("../picture/PS/рагнарёк шакальный.png");
+    background-image: url("../picture/Nintendo/Mario+RabbidsSparksofHope.jpg");
 }
 
-#UntilDown
+#SuperSmash
 {
-    background-image: url("../picture/PS/унитаз даун.jpg");
-    background-position: 0%;
+    background-image: url("../picture/Nintendo/SuperSmashBrosUltimate.png");
 }
 
-#Blodborne
+#Mansion
 {
-    background-image: url("../picture/PS/blodborne.jpg");
+    background-image: url("../picture/Nintendo/luigis-mansion.jpg");
 }
 
-#DaysGone
+#MarioKart
 {
-    background-image: url("../picture/PS/days-gone.jpg");
+    background-image: url("../picture/Nintendo/Mario-Kart-8.jpg");
 }
 
-#DeathStranding
+#SuperMario
 {
-    background-image: url("../picture/PS/death stranding.png");
+    background-image: url("../picture/Nintendo/SuperMarioOdyssey.webp");
 }
 
-#DemonSouls
+#ZeldaBreath
 {
-    background-image: url("../picture/PS/demon souls.jpg");
+    background-image: url("../picture/Nintendo/The-Legend-of-Zelda-Breath-of-the-Wild.jpg");
 }
 
-#Detroit
+#ZeldaAwakening
 {
-    background-image: url("../picture/PS/detroit.jpg");
+    background-image: url("../picture/Nintendo/The-Legend-of-Zelda-Link's-Awakening.webp");
 }
 
-#Ghost
+#Warriors
 {
-    background-image: url("../picture/PS/ghost.jpg");
+    background-image: url("../picture/Nintendo/Hyrule-Warriors-Age-of-Calamity.jpg");
 }
 
-#Horizon
+#Switch-1-2
 {
-    background-image: url("../picture/PS/horizon.jpg");
+    background-image: url("../picture/Nintendo/1-2-Switch.jpg");
 }
 
-#Ratchet
+#Sports
 {
-    background-image: url("../picture/PS/ratchet-and-clank-rift-apart-b0-800x1280.jpg");
+    background-image: url("../picture/Nintendo/Nintendo-Switch-Sports.jpg");
 }
 
-#Returnal
+#Ring
 {
-    background-image: url("../picture/PS/returnal.jpg");
+    background-image: url("../picture/Nintendo/Ring-Fit-Adventure.jpg");
 }
 
-#ShadowOfColosus
+#Kirby
 {
-    background-image: url("../picture/PS/shadow-of-the-colossus.jpg");
+    background-image: url("../picture/Nintendo/Kirby-and-the-Forgotten-Land.jpg");
 }
 
-#SpiderMam
+#Mario3D
 {
-    background-image: url("../picture/PS/spider-man-2018-spider-man.jpg");
+    background-image: url("../picture/Nintendo/Super-Mario-3D-World.jpg");
 }
 
-#BlackSpiderMam
+#Splatoon
 {
-    background-image: url("../picture/PS/marvel-spider-man-miles-morales-iz-1280x2120.jpg");
+    background-image: url("../picture/Nintendo/Splatoon-3.jpg");
 }
 
-#TheLastOffAss2
+#FIFA
 {
-    background-image: url("../picture/PS/the last of ass 2.jpg");
+    background-image: url("../picture/Nintendo/FIFA.jpg");
 }
 
-#Uncharted
+#Minecraft
 {
-    background-image: url("../picture/PS/uncharted.jpg");
+    background-image: url("../picture/Nintendo/Minecraft.jpg");
 }
 
-#GranTurismo
+#Wolfenstein
 {
-    background-image: url("../picture/PS/GTS7.jpg");
+    background-image: url("../picture/Nintendo/Wolfenstein-2-The-New-Colossus-For-IPhone.jpg");
 }
 
-#Astro
+#DOOM
 {
-    background-image: url("../picture/PS/APR.jpg");
+    background-image: url("../picture/Nintendo/DOOM.jpg");
 }
 
 #Other
 {
-    background-image: url("../picture/PS/psstore.jpg");
+    background-image: url("../picture/Nintendo/Nintendo-eShop.png");
 }
 
-#section-7
+#section-8
 {
     background-color: black;
     box-shadow: 0 0 1vmax 1vmax rgba(0,0,0, 0.5);
     overflow: hidden;
 }
 
-#section-7 > div > img
+#section-8 > div > img
 {
     width: 30vmin;
     height: 30vmin;
 }
 
-#section-7 > div
+#section-8 > div
 {
     display: flex;
     flex-direction: row;
@@ -696,10 +700,10 @@ body
     align-items: center;
 }
 
-#section-7 > div > h1
+#section-8 > div > h1
 {
     color: white;
-    font-family: "PS-2";
+    font-family: "Nintendo";
 }
 
 #bigH4
@@ -713,7 +717,7 @@ body
     font-weight: 100;
 }
 
-#section-8
+#section-9
 {
     display: flex;
     flex-direction: row;
@@ -752,7 +756,7 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-8
+    #section-9
     {
         justify-content: center;
     }
@@ -779,7 +783,7 @@ body
 
 #boxPsPlusH > h2 + h2
 {
-    font-family: "PS-2";
+    font-family: "Nintendo";
     color: rgb(245,216,73);
     margin-top: 0;
 }
@@ -812,12 +816,12 @@ body
     margin-bottom: 1vh;
 }
 
-#section-9
+#section-10
 {
     box-shadow: 0 0 1vw 1vw rgba(0,0,0,0.5);
 }
 
-#section-9, #section-12, #section-15
+#section-10, #section-13, #section-16
 {
     background-color: black;
     display: flex;
@@ -827,18 +831,18 @@ body
     height: 35vh;
 }
 
-#section-9 > *, #section-12 > *, #section-15 > *
+#section-10 > *, #section-13 > *, #section-16 > *
 {
     color: white;
     text-align: center;
 }
 
-#section-9 > h5 + p, #section-12 > h5 + p, #section-15 > h5 + p
+#section-10 > h5 + p, #section-13 > h5 + p, #section-16 > h5 + p
 {
     width: 40vw;
 }
 
-#section-10, #section-13
+#section-11, #section-14
 {
     background-color: rgb(33,33,33);
     display: flex;
@@ -848,7 +852,7 @@ body
     height: 80vh;
 }
 
-#section-10 > div, #section-13 > div
+#section-11 > div, #section-14 > div
 {
     width: 35vw;
     height: 50vh;
@@ -859,69 +863,9 @@ body
     margin: 5vw;
 }
 
-#section-10 > div + div, #section-13 > div + div
+#section-11 > div + div, #section-14 > div + div
 {
     align-items: center;
-}
-
-@media (orientation: portrait)
-{
-    #section-10, #section-13
-    {
-        flex-direction: column;
-        height: 80vh;
-    }
-
-    #section-10 > div, #section-13 > div
-    {
-        height: 30vh;
-    }
-}
-
-#section-10 > div > *,#section-13 > div > *
-{
-    color: white;
-    text-align: left;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
-
-#section-10 img
-{
-    width: 40vmax;
-    height: 30vmax;
-}
-
-#section-11,#section-14 
-{
-    background-color: black;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: center;
-    height: 80vh;
-}
-
-#section-11 > div,#section-14 > div
-{
-    width: 35vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 5vw;
-}
-
-#section-11 > div + div,#section-14 > div + div
-{
-    align-items: center;
-}
-
-#section-11 img,#section-14 img
-{
-    width: 40vmax;
-    height: 30vmax;
 }
 
 @media (orientation: portrait)
@@ -946,28 +890,88 @@ body
     margin-bottom: 1vh;
 }
 
-#section-12, #section-13, #section-14
+#section-11 img
+{
+    width: 40vmax;
+    height: 30vmax;
+}
+
+#section-12,#section-15 
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+}
+
+#section-12 > div,#section-15 > div
+{
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5vw;
+}
+
+#section-12 > div + div,#section-15 > div + div
+{
+    align-items: center;
+}
+
+#section-12 img,#section-15 img
+{
+    width: 40vmax;
+    height: 30vmax;
+}
+
+@media (orientation: portrait)
+{
+    #section-12, #section-15
+    {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #section-12 > div, #section-15 > div
+    {
+        height: 30vh;
+    }
+}
+
+#section-12 > div > *,#section-15 > div > *
+{
+    color: white;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#section-13, #section-14, #section-15
 {
     background-color: rgb(245,216,73);
 }
 
-#section-12 *, #section-13 *, #section-14 *, #section-12 > div *, #section-13 > div *, #section-14 > div *
+#section-13 *, #section-14 *, #section-15 *, #section-13 > div *, #section-14 > div *, #section-15 > div *
 {
     color: black;
 }
 
-#section-13 img
+#section-14 img
 {
     width: 40vmax;
     height: 25vmax;
 }
 
-#section-16
+#section-17
 {
     box-shadow: 0 0 1vw 1vw rgba(255,255,255,0.5);
 }
 
-#section-15 *, #section-16 *, #section-15, #section-16
+#section-16 *, #section-17 *, #section-16, #section-17
 {
     background-color: white;
     color: black;
@@ -980,35 +984,35 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-9 > h5 + p, #section-12 > h5 + p, #section-15 > h5 + p
+    #section-10 > h5 + p, #section-13 > h5 + p, #section-16 > h5 + p
     {
         width: 80vw;
     }
 
-    #section-10 > div > *,#section-13 > div > *,#section-10 > div,#section-13 > div,#section-11 > div > *,#section-14 > div > *,#section-11 > div,#section-14 > div
+    #section-11 > div > *,#section-14 > div > *,#section-11 > div,#section-14 > div,#section-12 > div > *,#section-15 > div > *,#section-12 > div,#section-15 > div
     {
         width: 80vw;
     }
 }
 
-#section-16 > div > *
+#section-17 > div > *
 {
     margin: 1vmax 0;
 }
 
-#section-16 > div > img
+#section-17 > div > img
 {
     width: 10vmax;
     height: 10vmax;
 }
 
-#section-15 > h5 + p
+#section-16 > h5 + p
 {
     width: 60vw;
     text-align: center;
 }
 
-#section-16
+#section-17
 {
     height: 70vmax;
     display: grid;
@@ -1018,7 +1022,7 @@ body
     grid-row-gap: 5vmax;
 }
 
-#section-16 > div
+#section-17 > div
 {
     width: 25vmax;
     height: 30vmax;
@@ -1026,20 +1030,20 @@ body
 
 @media (orientation: portrait)
 {
-    #section-16
+    #section-17
     {
         grid-template-columns: repeat(2, 40vmin);
         grid-template-rows: repeat(3, 50vmin);
         height: 180vmin;
     }
 
-    #section-16 > div
+    #section-17 > div
     {
         width: 40vmin;
         height: 50vmin;
     }
 
-    #section-16 > div > *
+    #section-17 > div > *
     {
         width: 40vmin;
     }
@@ -1047,20 +1051,20 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-16
+    #section-17
     {
         grid-template-columns: repeat(2, 40vmin);
         grid-template-rows: repeat(3, 70vmin);
         height: 270vmin;
     }
 
-    #section-16 > div
+    #section-17 > div
     {
         width: 40vmin;
         height: 70vmin;
     }
 
-    #section-16 > div > *
+    #section-17 > div > *
     {
         width: 40vmin;
     }
@@ -1075,7 +1079,7 @@ body
 
 
 
-#section-17
+#section-18
 {
     display: flex;
     flex-direction: row;
@@ -1086,34 +1090,34 @@ body
 
 @media (orientation: portrait)
 {
-    #section-17
+    #section-18
     {
         flex-direction: column;
         height: 210vh;
     }
 }
 
-#section-17 > div:hover
+#section-18 > div:hover
 {
     transform:scale(1.1,1.1);
 }
 
-#section-17 #blockLuks
+#section-18 #blockLuks
 {
     height: 66vh;
 }
 
-#section-17 #blockExtra
+#section-18 #blockExtra
 {
     height: 58vh;
 }
 
-#section-17 #blockBase
+#section-18 #blockBase
 {
     height: 57vh;
 }
 
-#section-17 > div
+#section-18 > div
 {
     width: 25vw;
     height: 60vh;
@@ -1127,7 +1131,7 @@ body
     transition: 2s transform;
 }
 
-#section-17 > div > div
+#section-18 > div > div
 {
     width: 20vw;
     height: 10vh;
@@ -1139,7 +1143,7 @@ body
     align-items: flex-start;
 }
 
-#section-17 > div > div > h6
+#section-18 > div > div > h6
 {
     margin-top: 1vh;
     margin-bottom: 0.5vh;
@@ -1147,7 +1151,7 @@ body
     margin-right: 1vw;
 }
 
-#section-17 li
+#section-18 li
 {
     list-style-type: none;
     width: 20vw;
@@ -1157,19 +1161,19 @@ body
     align-items: center;
 }
 
-#section-17 li::after
+#section-18 li::after
 {
     content: "✓";
 }
 
-#section-17 > div > div > p
+#section-18 > div > div > p
 {
     margin-bottom: 1vh;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
-#section-17 #base
+#section-18 #base
 {
     height: 15vh;
 }
@@ -1179,7 +1183,7 @@ body
     color: black;
 }
 
-#section-17 #luks
+#section-18 #luks
 {
     background-color: black;
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
@@ -1209,7 +1213,7 @@ body
     z-index: 2;
 }
 
-#section-17 > div > a
+#section-18 > div > a
 {
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -1226,76 +1230,76 @@ body
 
 @media (orientation: portrait)
 {
-    #section-17 > div
+    #section-18 > div
     {
         width: 60vw;
     }
 
-    #section-17 #blockLuks
+    #section-18 #blockLuks
     {
         height: 56vh;
     }
 
-    #section-17 #blockExtra
+    #section-18 #blockExtra
     {
         height: 48vh;
     }
 
-    #section-17 #blockBase
+    #section-18 #blockBase
     {
         height: 47vh;
     }
 
-    #section-17 > div > div
+    #section-18 > div > div
     {
         width: 50vw;
     }
 
-    #section-17 li
+    #section-18 li
     {
         width: 50vw;
     }
 
-    #section-17 > div > a
+    #section-18 > div > a
     {
         width: 50vw;
     }
 }
 
-#section-17 > #blockLuks > a
+#section-18 > #blockLuks > a
 {
     background-color: black;
     color: rgb(245,216,73);
 }
 
-#section-17 > #blockLuks > a:hover
+#section-18 > #blockLuks > a:hover
 {
     outline-color: black;
 }
 
-#section-17 > #blockExtra > a
+#section-18 > #blockExtra > a
 {
     background-color: rgb(245,216,73);
     color: black;
 }
 
-#section-17 > #blockExtra > a:hover
+#section-18 > #blockExtra > a:hover
 {
     outline-color: rgb(245,216,73);
 }
 
-#section-17 > #blockBase > a
+#section-18 > #blockBase > a
 {
     background-color: rgb(0, 112, 204);
     color: white;
 }
 
-#section-17 > #blockBase > a:hover
+#section-18 > #blockBase > a:hover
 {
     outline-color: rgb(0, 112, 204);
 }
 
-#section-18 > div
+#section-19 > div
 {
     display: flex;
     flex-direction: column;
@@ -1308,29 +1312,29 @@ body
     box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
 }
 
-#section-18 > div > *
+#section-19 > div > *
 {
     text-align: center;
 }
 
 @media (orientation: portrait)
 {
-    #section-18 > div
+    #section-19 > div
     {
         height: 20vh;
     }
 }
 
-#section-18 > div > h4 + h4
+#section-19 > div > h4 + h4
 {
-    font-family: "PS-2";
+    font-family: "Nintendo";
     color: rgb(0, 112, 204);
     font-size: 4vmax;
 }
 
 
 
-#section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+#section-20,#section-21,#section-22,#section-23,#section-24,#section-25
 {
     overflow: hidden;
 }
@@ -1375,7 +1379,7 @@ body
 
 @media (orientation: portrait)
 {
-    #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+    #section-20,#section-21,#section-22,#section-23,#section-24,#section-25
     {
         height: 120vh;
     }
@@ -1406,7 +1410,7 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+    #section-20,#section-21,#section-22,#section-23,#section-24,#section-25
     {
         height: 120vh;
     }
@@ -1512,7 +1516,7 @@ body
     }
 }
 
-#section-25
+#section-26, #section-28
 {
     display: flex;
     flex-direction: row;
@@ -1522,7 +1526,7 @@ body
     overflow: hidden;
 }
 
-#section-26
+#section-27
 {
     display: flex;
     flex-direction: row;
@@ -1532,7 +1536,7 @@ body
     overflow: hidden;
 }
 
-#block-ps5, #block-ps5DE
+#block-ps5, #block-ps5DE, #block-ps5-2
 {
     width: 60vw;
     height: 60vh;
@@ -1542,7 +1546,7 @@ body
     box-shadow: 0 0 1vw 1vw rgba(255,255,255,0.5);
 }
 
-#block-ps5
+#block-ps5, #block-ps5-2
 {
     margin-left: 5vw;
     flex-direction: row;
@@ -1558,13 +1562,13 @@ body
     align-items: center;
 }
 
-#block-ps5 > div > img, #block-ps5 > div, #block-ps5DE > div > img, #block-ps5DE > div
+#block-ps5 > div > img, #block-ps5 > div,#block-ps5-2 > div > img, #block-ps5-2 > div, #block-ps5DE > div > img, #block-ps5DE > div
 {
     width: 30vw;
     height: 30vw;
 }
 
-#block-ps5 > div
+#block-ps5 > div,#block-ps5-2 > div
 {
     display: flex;
     flex-direction: column;
@@ -1582,13 +1586,13 @@ body
     margin: 0 1vw 0 0;
 }
 
-#block-ps5 > div > *
+#block-ps5 > div > *,#block-ps5-2 > div > *
 {
     text-align: right;
     margin: 1vw 1vw;
 }
 
-#block-ps5 > div > div > div, #block-ps5 > div > a,#block-ps5DE > div > div > div, #block-ps5DE > div > a
+#block-ps5 > div > div > div, #block-ps5-2 > div > a,#block-ps5-2 > div > div > div, #block-ps5 > div > a,#block-ps5DE > div > div > div, #block-ps5DE > div > a
 {
     width: 6vw;
     height: 2vw;
@@ -1603,7 +1607,7 @@ body
     transition: 2s outline-color;
 }
 
-#block-ps5 > div > div
+#block-ps5 > div > div,#block-ps5-2 > div > div
 {
     display: flex;
     flex-direction: row;
@@ -1621,7 +1625,7 @@ body
     height: 3vw;
 }
 
-#block-ps5 > div > a, #block-ps5DE > div > a
+#block-ps5 > div > a,#block-ps5-2 > div > a, #block-ps5DE > div > a
 {
     background-color: rgb(0, 112, 204);
     color: white;
@@ -1632,7 +1636,7 @@ body
 @media (orientation: portrait)
 {
 
-    #block-ps5
+    #block-ps5,#block-ps5-2
     {
         flex-direction: column;
     }
@@ -1642,22 +1646,22 @@ body
         flex-direction: column-reverse;
     }
 
-    #block-ps5 > div, #block-ps5DE > div
+    #block-ps5 > div,#block-ps5-2 > div, #block-ps5DE > div
     {
         align-items: center;
     }
 
-    #block-ps5 > div > *,#block-ps5DE > div > *
+    #block-ps5 > div > *,#block-ps5-2 > div > *,#block-ps5DE > div > *
     {
         text-align: center;
     }
 
-    #block-ps5 > div,#block-ps5DE > div
+    #block-ps5 > div,#block-ps5-2 > div,#block-ps5DE > div
     {
         width: 50vw;
     }
 
-    #block-ps5 > div > div > div, #block-ps5DE > div > div > div
+    #block-ps5 > div > div > div,#block-ps5-2 > div > div > div, #block-ps5DE > div > div > div
     {
         height: 3vw;
         width: 9vw;
@@ -1667,12 +1671,12 @@ body
 @media (orientation: portrait) and (max-width: 729px)
 {
 
-    #section-25, #section-26
+    #section-26, #section-27, #section-28
     {
         justify-content: center;
     }
 
-    #block-ps5
+    #block-ps5,#block-ps5-2
     {
         flex-direction: column;
         margin-left: 0vw;
@@ -1686,36 +1690,36 @@ body
         width: 80vw;
     }
 
-    #block-ps5 > div, #block-ps5DE > div
+    #block-ps5 > div,#block-ps5-2 > div, #block-ps5DE > div
     {
         align-items: center;
         width: 70vw;
     }
 
-    #block-ps5 > div > *,#block-ps5DE > div > *
+    #block-ps5 > div > *,#block-ps5-2 > div > *,#block-ps5DE > div > *
     {
         text-align: center;
         width: 70vw;
     }
 
-    #block-ps5 > div > a,#block-ps5DE > div > a
+    #block-ps5 > div > a,#block-ps5-2 > div > a,#block-ps5DE > div > a
     {
         height: 6vw;
         width: 18vw;
     }
 
-    #block-ps5 > div > div, #block-ps5DE > div > div
+    #block-ps5 > div > div,#block-ps5-2 > div > div, #block-ps5DE > div > div
     {
         justify-content: center;
     }
 
-    #block-ps5 > div > div > div, #block-ps5DE > div > div > div
+    #block-ps5 > div > div > div,#block-ps5-2 > div > div > div, #block-ps5DE > div > div > div
     {
         height: 4vw;
         width: 12vw;
     }
 
-    #block-ps5 > div > img, #block-ps5 > div, #block-ps5DE > div > img, #block-ps5DE > div
+    #block-ps5 > div > img, #block-ps5 > div,#block-ps5-2 > div > img, #block-ps5-2 > div, #block-ps5DE > div > img, #block-ps5DE > div
     {
         width: 70vw;
         height: 70vw;
@@ -1727,22 +1731,22 @@ body
     margin: 1vw 1vw;
 }
 
-#block-ps5 > div > h5, #block-ps5DE > div > h5
+#block-ps5 > div > h5,#block-ps5-2 > div > h5, #block-ps5DE > div > h5
 {
-    font-family: "PS-2";
+    font-family: "Nintendo";
 }
 
-#block-ps5 > div > div > div:hover,#block-ps5DE > div > div > div:hover
+#block-ps5 > div > div > div:hover,#block-ps5-2 > div > div > div:hover,#block-ps5DE > div > div > div:hover
 {
     outline-color: rgb(186,186,186);
 }
 
-#block-ps5 > div > a:hover, #block-ps5DE > div > a:hover
+#block-ps5 > div > a:hover,#block-ps5-2 > div > a:hover, #block-ps5DE > div > a:hover
 {
     outline-color: rgb(0, 112, 204);
 }
 
-#section-27 > div
+#section-29 > div
 {
     display: flex;
     flex-direction: column;
@@ -1757,7 +1761,7 @@ body
 
 @media (orientation: portrait)
 {
-    #section-27 > div
+    #section-29 > div
     {
         height: 20vh;
     }
@@ -1765,18 +1769,18 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-27 > div
+    #section-29 > div
     {
         height: 20vh;
     }
 
-    #section-27 > div > *
+    #section-29 > div > *
     {
         text-align: center;
     }
 }
 
-#section-28
+#section-30
 {
     height: 200vh;
     display: flex;
@@ -1784,7 +1788,7 @@ body
     align-items: center;
 }
 
-#section-28 > div
+#section-30 > div
 {
     display: grid;
     grid-template-columns: repeat(3, 25vw);
@@ -1793,14 +1797,14 @@ body
     grid-column-gap: 6vw;
 }
 
-#section-28 > div > div
+#section-30 > div > div
 {
     background-color: white;
     border-radius: 2vmax;
     box-shadow: 0 0 1vmax 1vmax rgba(255,255,255,0.5);
 }
 
-#section-28 > div > div > div
+#section-30 > div > div > div
 {
     width: 25vw;
     height: 4vmax;
@@ -1812,12 +1816,12 @@ body
 
 @media (orientation: portrait)
 {
-    #section-28
+    #section-30
     {
         height: 150vh;
     }
 
-    #section-28 > div
+    #section-30 > div
     {
         grid-template-columns: repeat(3, 28vw);
         grid-template-rows: repeat(3, 40vh);
@@ -1828,12 +1832,12 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-28
+    #section-30
     {
         height: 550vh;
     }
 
-    #section-28 > div
+    #section-30 > div
     {
         grid-template-columns: repeat(1, 80vw);
         grid-template-rows: repeat(9, 50vh);
@@ -1841,13 +1845,13 @@ body
         grid-column-gap: 6vw;
     }
 
-    #section-28 > div > div > div
+    #section-30 > div > div > div
     {
         width: 60vw;
     }
 }
 
-#section-28 > div > div
+#section-30 > div > div
 {
     display: flex;
     flex-direction: column;
@@ -1857,7 +1861,7 @@ body
     overflow: hidden;
 }
 
-#section-28 > div > div > img
+#section-30 > div > div > img
 {
     width: 23vmax;
     height: 15vmax;
@@ -1865,12 +1869,12 @@ body
     overflow: hidden;
 }
 
-#section-28 > div > div > h6
+#section-30 > div > div > h6
 {
     text-align: center;
 }
 
-#section-28 > div > div > a
+#section-30 > div > div > a
 {
     width: 15vmax;
     height: 3vmax;
@@ -1885,12 +1889,12 @@ body
     transition: 2s outline-color;
 }
 
-#section-28 > div > div > a:hover
+#section-30 > div > div > a:hover
 {
     outline-color: rgb(0, 112, 204);
 }
 
-#section-28 > div > div > div > div
+#section-30 > div > div > div > div
 {
     width: 2vmax;
     height: 2vmax;
@@ -1904,116 +1908,116 @@ body
     align-items: center;
 }
 
-#section-28 #white
+#section-30 #white
 {
     background-color: white;
     box-shadow: 0 0 0.3vmax rgb(122,122,122);
 }
 
-#section-28 #black
+#section-30 #black
 {
     background-color: black;
     box-shadow: 0 0 0.3vmax rgb(0,0,0);
 }
 
-#section-28 #red
+#section-30 #red
 {
     background-color: #a91d4e;
     box-shadow: 0 0 0.3vmax #a91d4e;
 }
 
-#section-28 #blue
+#section-30 #blue
 {
     background-color: aqua;
     box-shadow: 0 0 0.3vmax aqua;
 }
 
-#section-28 #pink
+#section-30 #pink
 {
     background-color: rgb(235,62,153);
     box-shadow: 0 0 0.3vmax rgb(235,62,153);
 }
 
-#section-28 #purple
+#section-30 #purple
 {
     background-color: rgb(71,45,150);
     box-shadow: 0 0 0.3vmax rgb(71,45,150);
 }
 
-#section-28 #gray
+#section-30 #gray
 {
     background-color: #8A8A8A;
     box-shadow: 0 0 0.3vmax #8A8A8A;
 }
 
-#section-28 #white:hover
+#section-30 #white:hover
 {
     outline-color: rgba(122,122,122, 0.5);
 }
 
-#section-28 #black:hover
+#section-30 #black:hover
 {
     outline-color: black;
 }
 
-#section-28 #red:hover
+#section-30 #red:hover
 {
     outline-color: #a91d4e;
 }
 
-#section-28 #blue:hover
+#section-30 #blue:hover
 {
     outline-color: aqua;
 }
 
-#section-28 #pink:hover
+#section-30 #pink:hover
 {
     outline-color: rgb(235,62,153);
 }
 
-#section-28 #purple:hover
+#section-30 #purple:hover
 {
     outline-color: rgb(71,45,150);
 }
 
-#section-28 #gray:hover
+#section-30 #gray:hover
 {
     outline-color: #8A8A8A;
 }
 
-#section-28 #DualCharge > img
+#section-30 #DualCharge > img
 {
     width: 19vmax;
     height: 15vmax;
 }
 
-#section-28 #DualSenseEdge > img
+#section-30 #DualSenseEdge > img
 {
     width: 15vmax;
     height: 18vmax;
 }
 
-#section-28 #DualSenseEdge > div > div
+#section-30 #DualSenseEdge > div > div
 {
     width: 8vmax;
 }
 
-#section-28 #Pulse3D
+#section-30 #Pulse3D
 {
     overflow: hidden;
 }
 
-#section-28 #Pulse3D > img
+#section-30 #Pulse3D > img
 {
     width: 27vmax;
 }
 
-#section-28 #MediaRemote > img
+#section-30 #MediaRemote > img
 {
     width: 21vmax;
 }
 
-#section-28 #PS5Panel > img
+#section-30 #PS5Panel > img
 {
     width: 19vmax;
 }
