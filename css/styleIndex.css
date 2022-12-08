@@ -1,0 +1,99 @@
+#home > div
+{
+    width: 70vw;
+    height: 30vh;
+    background-color: white;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5vh 5vw;
+    box-shadow: 0 0 2vw rgb(255,255,255);
+    animation: start 2s 1;
+}
+
+#home > div *
+{
+    color: black;
+}
+
+@keyframes start
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+#section-1 > div
+{
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 4vw;
+    box-shadow: 0 0 2vw rgb(255,255,255);
+}
+
+#section-1 > div div
+{
+    width: 68vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+#StartD
+{
+    background-color: rgb(75,75,75);
+    border-radius: 4vw 4vw 0 0;
+    color: white;
+}
+
+#PSd
+{
+    background-image: url("../picture/PS/f0e0852959-2_2780x1200.jpg");
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+
+#XBOXd
+{
+    background-image: url("../picture/XBOX/1612712988_75-p-bit-na-zelenom-fone-97.jpg");
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+
+#NinD
+{
+    background-image: url("../picture/Nintendo/551749-Club_Nintendo-Nintendo-Nintendo_3DS-Nintendo_Switch-video_games-Super_Mario.jpg");
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+
+#SteamD
+{
+    background-image: url("../picture/Steam/1624085615_14-phonoteka_org-p-oboi-stim-krasivo-16.jpg");
+    background-size: 70%;
+    background-position: right;
+    border-radius: 0 0 4vw 4vw;
+    color: white;
+}
+
+#PSd:hover,#XBOXd:hover,#NinD:hover,#SteamD:hover
+{
+    height: 20vh;
+}
