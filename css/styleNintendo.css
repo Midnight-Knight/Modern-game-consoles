@@ -1572,6 +1572,7 @@ body
 
 #block-ps5DE
 {
+    height: 65vh;
     margin-right: 5vw;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -1642,7 +1643,8 @@ body
 
 #block-ps5DE > div > a
 {
-    margin-top: 4vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
 }
 
 #section-27 #blue
@@ -1735,6 +1737,11 @@ body
         height: 3vw;
         width: 9vw;
     }
+
+    #block-ps5DE > div > a
+    {
+        margin-top: 2vw;
+    }
 }
 
 @media (orientation: portrait) and (max-width: 729px)
@@ -1750,6 +1757,7 @@ body
         flex-direction: column;
         margin-left: 0vw;
         width: 80vw;
+        height: 75vh;
     }
 
     #block-ps5DE
@@ -1757,6 +1765,7 @@ body
         flex-direction: column-reverse;
         margin-right: 0vw;
         width: 80vw;
+        height: 75vh;
     }
 
     #block-ps5 > div,#block-ps5-2 > div, #block-ps5DE > div
@@ -1775,6 +1784,11 @@ body
     {
         height: 6vw;
         width: 18vw;
+    }
+
+    #block-ps5DE > div > a
+    {
+        margin-top: 4vw;
     }
 
     #block-ps5 > div > div,#block-ps5-2 > div > div, #block-ps5DE > div > div
