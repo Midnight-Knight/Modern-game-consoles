@@ -276,3 +276,26 @@ let targetSec28 = document.getElementById("section-27");
 observerSec28.observe(targetSec28);
 let target9 = document.getElementById("section-28");
 observer9.observe(target9);
+
+
+function Joy(a)
+{
+    let str1 = "../picture/Nintendo/CI_NSwitch_NintendoSwitch_Accessories_JoyConPair";
+    let str2 = "";
+    if (a == 5 || a == 6)
+    {
+        str2 = ".jpg";
+    }
+    else
+    {
+        str2 = ".png";
+    }
+    document.getElementById("DualChargePict").src = str1 + a + str2;
+}
+
+function Lite(a)
+{
+    let str1 = "../picture/Nintendo/lite";
+    let str2 = ".png";
+    document.getElementById("NintendoLitePng").src = str1 + a + str2;
+}

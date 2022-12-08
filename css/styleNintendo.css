@@ -87,6 +87,7 @@ body
 #Nintendo > #section-1 h2
 {
     font-family: "Nintendo";
+    text-align: center;
 }
 
 #Nintendo > #section-1 img
@@ -903,7 +904,7 @@ body
 #section-11 img
 {
     width: 40vmax;
-    height: 30vmax;
+    height: 20vmax;
 }
 
 #section-12,#section-15 
@@ -940,7 +941,7 @@ body
 #section-12 img,#section-15 img
 {
     width: 40vmax;
-    height: 30vmax;
+    height: 20vmax;
 }
 
 @media (orientation: portrait)
@@ -1616,6 +1617,47 @@ body
     transition: 2s outline-color;
 }
 
+#block-ps5DE > div > a,#block-ps5DE > div > div > div
+{
+    margin-left: 0vw;
+    margin-right: 1vw;
+}
+
+#block-ps5DE > div > div > p
+{
+    margin-right: 2.25vw;
+}
+
+#section-27 #blue
+{
+    background: rgb(58, 69, 149);
+    color: white;
+}
+
+#section-27 #pink
+{
+    background: rgb(250, 130, 140);
+    color: white;
+}
+
+#section-27 #yellow
+{
+    background: rgb(239, 190, 45);
+    color: white;
+}
+
+#section-27 #gray
+{
+    background: rgb(100, 100, 100);
+    color: white;
+}
+
+#section-27 #bur
+{
+    background: rgb(0, 178, 179);
+    color: white;
+}
+
 #block-ps5 > div > div,#block-ps5-2 > div > div
 {
     display: flex;
@@ -1631,12 +1673,13 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 3vw;
+    height: 8vw;
+    flex-wrap: wrap;
 }
 
 #block-ps5 > div > a,#block-ps5-2 > div > a, #block-ps5DE > div > a
 {
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(230, 0, 18);
     color: white;
     width: 12vw;
     height: 3vw;
@@ -1740,9 +1783,10 @@ body
     margin: 1vw 1vw;
 }
 
-#block-ps5 > div > h5,#block-ps5-2 > div > h5, #block-ps5DE > div > h5
+#block-ps5 > div > h6,#block-ps5-2 > div > h6, #block-ps5DE > div > h6
 {
     font-family: "Nintendo";
+    font-size: 1.5vmax;
 }
 
 #block-ps5 > div > div > div:hover,#block-ps5-2 > div > div > div:hover,#block-ps5DE > div > div > div:hover
@@ -1752,7 +1796,7 @@ body
 
 #block-ps5 > div > a:hover,#block-ps5-2 > div > a:hover, #block-ps5DE > div > a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: rgb(230, 0, 18);
 }
 
 #section-29 > div
@@ -1888,7 +1932,7 @@ body
     width: 15vmax;
     height: 3vmax;
     border-radius: 3vmax;
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(230, 0, 18);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1900,7 +1944,7 @@ body
 
 #section-30 > div > div > a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: rgb(230, 0, 18);
 }
 
 #section-30 > div > div > div > div
@@ -1915,6 +1959,11 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#DualSens > div > #white
+{
+    width: 5vmax;
 }
 
 #section-30 #white
@@ -1959,10 +2008,47 @@ body
     box-shadow: 0 0 0.3vmax #8A8A8A;
 }
 
+#section-30 #RB
+{
+    background: linear-gradient(90deg, red, blue);
+    box-shadow: 0 0 0.3vmax linear-gradient(90deg, red, blue);
+}
+
+#section-30 #yellow
+{
+    background: yellow;
+    box-shadow: 0 0 0.3vmax yellow;
+}
+
+#section-30 #GP
+{
+    background: linear-gradient(90deg, rgb(0, 255, 0), rgb(255, 192, 252));
+    box-shadow: 0 0 0.3vmax linear-gradient(90deg, rgb(0, 255, 0), rgb(255, 192, 252));
+}
+
+#section-30 #BY
+{
+    background: linear-gradient(90deg, blue, yellow);
+    box-shadow: 0 0 0.3vmax linear-gradient(90deg, blue, yellow);
+}
+
+#section-30 #PuI
+{
+    background: linear-gradient(90deg, purple, orange);
+    box-shadow: 0 0 0.3vmax linear-gradient(90deg, purple, orange);
+}
+
+#section-30 #WR
+{
+    background: linear-gradient(0deg, white, red);
+    box-shadow: 0 0 0.3vmax rgba(122,122,122, 0.5);
+}
+
 #section-30 #white:hover
 {
     outline-color: rgba(122,122,122, 0.5);
 }
+
 
 #section-30 #black:hover
 {
@@ -1994,6 +2080,36 @@ body
     outline-color: #8A8A8A;
 }
 
+#section-30 #RB:hover
+{
+    outline-color: red;
+}
+
+#section-30 #yellow:hover
+{
+    outline-color: yellow;
+}
+
+#section-30 #GP:hover
+{
+    outline-color: rgb(0, 255, 0);
+}
+
+#section-30 #BY:hover
+{
+    outline-color: blue;
+}
+
+#section-30 #PuI:hover
+{
+    outline-color: purple;
+}
+
+#section-30 #WR:hover
+{
+    outline-color: rgb(186,186,186);
+}
+
 #section-30 #DualCharge > img
 {
     width: 19vmax;
@@ -2003,12 +2119,12 @@ body
 #section-30 #DualSenseEdge > img
 {
     width: 15vmax;
-    height: 18vmax;
+    height: 12vmax;
 }
 
 #section-30 #DualSenseEdge > div > div
 {
-    width: 8vmax;
+    width: 2vmax;
 }
 
 #section-30 #Pulse3D
@@ -2029,4 +2145,20 @@ body
 #section-30 #PS5Panel > img
 {
     width: 19vmax;
+}
+
+#section-30 #PSVR2 > img, #section-30 #PSVRCharge > img
+{
+    width: 15vmax;
+}
+
+#section-30 #PS5Cam > img
+{
+    width: 20vmax;
+}
+
+#section-30 #Pulse3D > img
+{
+    width: 22vmax;
+    height: 12vmax;
 }
