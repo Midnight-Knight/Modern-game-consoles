@@ -1,7 +1,7 @@
 body
 {
-    background-image: url(../picture/Nintendo/551749-Club_Nintendo-Nintendo-Nintendo_3DS-Nintendo_Switch-video_games-Super_Mario.jpg);
-    background-position: left;
+    background-image: url(../picture/Nintendo/3478453.jpg);
+    background-position: center;
 }
 
 #Nintendo::-webkit-scrollbar 
@@ -245,6 +245,11 @@ body
         text-align:center;
     }
 
+    #lblock > h6, #rblock > h6
+    {
+        text-align:center;
+    }
+
     #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
     {
         width: 52vw;
@@ -269,6 +274,11 @@ body
     }
 
     #lblock > p, #rblock > p
+    {
+        text-align:center;
+    }
+
+    #lblock > h6, #rblock > h6
     {
         text-align:center;
     }
@@ -482,7 +492,7 @@ body
         width: 12vw;
         height: 4vw;
         background-color: white;
-        color: black;
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -700,7 +710,7 @@ body
     align-items: center;
 }
 
-#section-8 > div > h1
+#section-8 > div > h4
 {
     color: white;
     font-family: "Nintendo";
@@ -749,7 +759,7 @@ body
     align-items: flex-start;
 }
 
-#boxPsPlusH > h2, #boxPsPlusH > p
+#boxPsPlusH > h2, #boxPsPlusH > h5, #boxPsPlusH > p
 {
     text-align: left;
 }
@@ -774,17 +784,17 @@ body
         align-items: center;
     }
 
-    #boxPsPlusH > h2, #boxPsPlusH > p
+    #boxPsPlusH > h2, #boxPsPlusH > h5, #boxPsPlusH > p
     {
         text-align: center;
     }
 }
 
 
-#boxPsPlusH > h2 + h2
+#boxPsPlusH > h2 + h5
 {
     font-family: "Nintendo";
-    color: rgb(245,216,73);
+    color: rgb(230, 0, 18);
     margin-top: 0;
 }
 
@@ -818,12 +828,12 @@ body
 
 #section-10
 {
-    box-shadow: 0 0 1vw 1vw rgba(0,0,0,0.5);
+    box-shadow: 0 0 1vw 1vw rgba(255,255,255,0.5);
 }
 
 #section-10, #section-13, #section-16
 {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -833,7 +843,7 @@ body
 
 #section-10 > *, #section-13 > *, #section-16 > *
 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -844,7 +854,7 @@ body
 
 #section-11, #section-14
 {
-    background-color: rgb(33,33,33);
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -884,7 +894,7 @@ body
 
 #section-11 > div > *,#section-14 > div > *
 {
-    color: white;
+    color: black;
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -898,12 +908,17 @@ body
 
 #section-12,#section-15 
 {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
     height: 80vh;
+}
+
+#section-12 *,#section-11 *,#section-10 *
+{
+    color: black;
 }
 
 #section-12 > div,#section-15 > div
@@ -944,7 +959,7 @@ body
 
 #section-12 > div > *,#section-15 > div > *
 {
-    color: white;
+    color: black;
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -968,13 +983,13 @@ body
 
 #section-17
 {
-    box-shadow: 0 0 1vw 1vw rgba(255,255,255,0.5);
+    box-shadow: 0 0 1vw 1vw rgba(230, 0, 18,0.5);
 }
 
 #section-16 *, #section-17 *, #section-16, #section-17
 {
-    background-color: white;
-    color: black;
+    background-color: rgb(230, 0, 18);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1016,7 +1031,7 @@ body
 {
     height: 70vmax;
     display: grid;
-    grid-template-columns: repeat(3, 25vmax);
+    grid-template-columns: repeat(2, 30vmax);
     grid-template-rows: repeat(2, 30vmax);
     grid-column-gap: 5vmax;
     grid-row-gap: 5vmax;
@@ -1032,9 +1047,9 @@ body
 {
     #section-17
     {
-        grid-template-columns: repeat(2, 40vmin);
-        grid-template-rows: repeat(3, 50vmin);
-        height: 180vmin;
+        grid-template-columns: repeat(2, 50vmin);
+        grid-template-rows: repeat(2, 50vmin);
+        height: 160vmin;
     }
 
     #section-17 > div
@@ -1053,9 +1068,9 @@ body
 {
     #section-17
     {
-        grid-template-columns: repeat(2, 40vmin);
-        grid-template-rows: repeat(3, 70vmin);
-        height: 270vmin;
+        grid-template-columns: repeat(2, 50vmin);
+        grid-template-rows: repeat(2, 70vmin);
+        height: 180vmin;
     }
 
     #section-17 > div
@@ -1104,7 +1119,7 @@ body
 
 #section-18 #blockLuks
 {
-    height: 66vh;
+    height: 68vh;
 }
 
 #section-18 #blockExtra
@@ -1185,14 +1200,14 @@ body
 
 #section-18 #luks
 {
-    background-color: black;
-    box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
-    height: 12vh;
+    background-color: white;
+    box-shadow: 0 0 0.5vmax 0.5vmax rgba(122,122,122, 0.5);
+    height: 15vh;
 }
 
 #luks > h6
 {
-    color: rgb(245,216,73);
+    color: black;
 }
 
 #luks > p
@@ -1208,9 +1223,13 @@ body
 
 #base
 {
-    background-color: white;
-    box-shadow: 0 0 0.5vmax 0.5vmax rgba(186,186,186,0.5);
+    background-color: rgb(230, 0, 18);
     z-index: 2;
+}
+
+#base > *
+{
+    color: white;
 }
 
 #section-18 > div > a
@@ -1268,35 +1287,25 @@ body
 
 #section-18 > #blockLuks > a
 {
-    background-color: black;
-    color: rgb(245,216,73);
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 0.5vmax 0.5vmax rgba(122,122,122,0.5);
 }
 
 #section-18 > #blockLuks > a:hover
 {
-    outline-color: black;
-}
-
-#section-18 > #blockExtra > a
-{
-    background-color: rgb(245,216,73);
-    color: black;
-}
-
-#section-18 > #blockExtra > a:hover
-{
-    outline-color: rgb(245,216,73);
+    outline-color: rgba(122,122,122,0.5)black;
 }
 
 #section-18 > #blockBase > a
 {
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(230, 0, 18);
     color: white;
 }
 
 #section-18 > #blockBase > a:hover
 {
-    outline-color: rgb(0, 112, 204);
+    outline-color: rgb(230, 0, 18);
 }
 
 #section-19 > div
@@ -1325,11 +1334,11 @@ body
     }
 }
 
-#section-19 > div > h4 + h4
+#section-19 > div > h4 + h6
 {
     font-family: "Nintendo";
-    color: rgb(0, 112, 204);
-    font-size: 4vmax;
+    color: rgb(230, 0, 18);
+    font-size: 3vmax;
 }
 
 
