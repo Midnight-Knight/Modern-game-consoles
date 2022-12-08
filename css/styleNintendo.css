@@ -179,8 +179,8 @@ body
 
 #Nintendo > #section-2 img, #Nintendo > #section-3 img, #Nintendo > #section-4 img
 {
-    width: 30vmax;
-    height: 30vmax;
+    width: 28vmax;
+    height: 28vmax;
 }
 
 #lblock
@@ -206,7 +206,7 @@ body
 }
 
 
-#rblock
+#rblock, #rblock-2
 {
     width: 35vmax;
     height: 30vmax;
@@ -218,13 +218,13 @@ body
     margin-left: 1vw;
 }
 
-#rblock > h6
+#rblock > h6, #rblock-2 > h6
 {
     font-family: "Nintendo";
     text-align: right;
 }
 
-#rblock > p
+#rblock > p, #rblock-2 > p
 {
     text-align: right;
 }
@@ -236,17 +236,18 @@ body
         flex-direction: column;
     }
 
-    #lblock, #rblock
+    #lblock, #rblock, #rblock-2
     {
         align-items: center;
+        width: 70vw;
     }
 
-    #lblock > p, #rblock > p
+    #lblock > p, #rblock > p, #rblock-2 > p
     {
         text-align:center;
     }
 
-    #lblock > h6, #rblock > h6
+    #lblock > h6, #rblock > h6, #rblock > h6
     {
         text-align:center;
     }
@@ -269,17 +270,18 @@ body
         flex-direction: column;
     }
 
-    #lblock, #rblock
+    #lblock, #rblock, #rblock-2
     {
         align-items: center;
+        width: 70vw;
     }
 
-    #lblock > p, #rblock > p
+    #lblock > p, #rblock > p, #rblock-2 > p
     {
         text-align:center;
     }
 
-    #lblock > h6, #rblock > h6
+    #lblock > h6, #rblock > h6, #rblock-2 > h6
     {
         text-align:center;
     }
@@ -1048,16 +1050,16 @@ body
 {
     #section-17
     {
-        grid-template-columns: repeat(2, 50vmin);
+        grid-template-columns: repeat(2, 45vmin);
         grid-template-rows: repeat(2, 50vmin);
         grid-column-gap: 5vmin;
         grid-row-gap: 15vmin;
-        height: 160vmin;
+        height: 210vmin;
     }
 
     #section-17 > div
     {
-        width: 50vmin;
+        width: 45vmin;
         height: 50vmin;
     }
 
@@ -1071,16 +1073,16 @@ body
 {
     #section-17
     {
-        grid-template-columns: repeat(2, 50vmin);
+        grid-template-columns: repeat(2, 45vmin);
         grid-template-rows: repeat(2, 70vmin);
         grid-column-gap: 5vmin;
-        grid-row-gap: 25vmin;
-        height: 180vmin;
+        grid-row-gap: 50vmin;
+        height: 270vmin;
     }
 
     #section-17 > div
     {
-        width: 50vmin;
+        width: 45vmin;
         height: 70vmin;
     }
 
