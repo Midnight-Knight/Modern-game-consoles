@@ -12,6 +12,12 @@ body
     background-size: cover;
     background-attachment: fixed;
     background-position: right;
+    min-width: 320px;
+}
+
+body > *
+{
+    min-width: 320px;
 }
 
 #start
