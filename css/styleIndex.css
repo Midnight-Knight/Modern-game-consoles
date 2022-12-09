@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 2s;
+    transition: 1s;
 }
 
 #StartD
@@ -96,4 +96,46 @@
 #PSd:hover,#XBOXd:hover,#NinD:hover,#SteamD:hover
 {
     height: 20vh;
+}
+
+@keyframes ps5png
+{
+    from
+    {
+        transform: translateY(25vmin);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateY(0vmin);
+        opacity: 1;
+    }
+}
+
+@keyframes lblock
+{
+    from
+    {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    to
+    {   
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
+
+@keyframes rblock
+{
+    from
+    {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    to
+    {   
+        transform: translateX(0vw);
+        opacity: 1;
+    }
 }
