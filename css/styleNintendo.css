@@ -401,8 +401,8 @@ body
 {
     width: 9vw;
     height: 3vw;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,7 +416,7 @@ body
 
 .PsCardExc > div > a:hover
 {
-    outline-color: rgba(255,0,0,1);
+    outline-color: white;
 }
 
 .PsCardExc:hover > div
@@ -440,16 +440,6 @@ body
     grid-template-rows: repeat(5, 35vw);
     grid-column-gap: 2vw;
     grid-row-gap: 2vw;
-}
-
-#Other a
-{
-    background-color: red;
-}
-
-#Other a:hover
-{
-    outline-color: red;
 }
 
 @media (orientation: portrait)
@@ -808,7 +798,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 112, 204);
+    background-color: rgb(230, 0, 18);
     color: white;
     border-radius: 5vmin;
     outline: 0.3vmin solid rgba(0,0,0,0);
@@ -820,7 +810,7 @@ body
 
 #boxPsPlusH > a:hover
 {
-    outline-color: rgba(0, 112, 204,1);
+    outline-color: rgb(230, 0, 18);
 }
 
 #boxPsPlusH > *

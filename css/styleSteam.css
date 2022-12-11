@@ -422,16 +422,6 @@ body
     grid-row-gap: 2vw;
 }
 
-#Other a
-{
-    background-color: rgb(66,66,66);
-}
-
-#Other a:hover
-{
-    outline-color: white;
-}
-
 @media (orientation: portrait)
 {
     .PsCardExc

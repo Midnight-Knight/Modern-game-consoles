@@ -389,8 +389,8 @@ body
 {
     width: 9vw;
     height: 3vw;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: rgb(16, 124, 16);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,7 +404,7 @@ body
 
 .PsCardExc > div > a:hover
 {
-    outline-color: rgba(255,0,0,1);
+    outline-color: white;
 }
 
 .PsCardExc:hover > div
@@ -428,17 +428,6 @@ body
     grid-template-rows: repeat(5, 35vw);
     grid-column-gap: 2vw;
     grid-row-gap: 2vw;
-}
-
-#Other a
-{
-    background-color: greenyellow;
-    color: black;
-}
-
-#Other a:hover
-{
-    outline-color: greenyellow;
 }
 
 @media (orientation: portrait)
