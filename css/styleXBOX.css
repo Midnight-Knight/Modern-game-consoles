@@ -226,6 +226,15 @@ body
     text-align: right;
 }
 
+@media (orientation: landscape) and (max-height: 550px)
+{
+    #XBOX > #section-2 img, #XBOX > #section-3 img
+    {
+        width: 30vmin;
+        height: 30vmin;
+    }
+}
+
 @media (orientation: portrait)
 {
     #XBOX > #section-2 > div, #XBOX > #section-3 > div

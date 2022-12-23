@@ -229,6 +229,15 @@ body
     text-align: right;
 }
 
+@media (orientation: landscape) and (max-height: 550px)
+{
+    #Nintendo > #section-2 img, #Nintendo > #section-3 img, #Nintendo > #section-4 img
+    {
+        width: 28vmin;
+        height: 28vmin;
+    }
+}
+
 @media (orientation: portrait)
 {
     #Nintendo > #section-2 > div, #Nintendo > #section-3 > div, #Nintendo > #section-4 > div
