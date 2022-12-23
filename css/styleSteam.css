@@ -166,7 +166,7 @@ body
     margin: 5vw 5vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
@@ -220,6 +220,15 @@ body
 #rblock > p
 {
     text-align: right;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #Steam > #section-2 img, #Steam > #section-3 img
+    {
+        width: 23vmax;
+        height: 23vmax;
+    }
 }
 
 @media (orientation: portrait)
@@ -278,6 +287,15 @@ body
         height: 80vw;
         border-radius: 4vw;
     }
+}
+
+#section-4
+{
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #section-4 > video
@@ -1369,6 +1387,21 @@ body
     width: 28vw;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+    {
+        height: 150vh;
+        justify-content: space-around;
+    }
+
+    .section-hard
+    {
+        height: 60vh;
+    }
+}
+
+
 @media (orientation: portrait)
 {
     #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
@@ -1648,6 +1681,19 @@ body
     color: white;
     width: 12vw;
     height: 3vw;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-25, #section-26
+    {
+        height: 120vh;
+    }
+
+    #section-25 > div, #section-26 > div
+    {
+        height: 90vh;
+    }
 }
 
 @media (orientation: portrait)
