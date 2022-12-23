@@ -281,8 +281,8 @@ body
 
 #section-4
 {
-    height: 200vh;
     display: flex;
+    height: 200vh;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -295,6 +295,14 @@ body
     background-color: white;
     border-radius: 2vmax;
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-4
+    {
+        height: 300vh;
+    }
 }
 
 @media (orientation: portrait) and (max-width: 729px)

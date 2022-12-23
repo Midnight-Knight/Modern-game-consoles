@@ -310,6 +310,14 @@ body
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-4
+    {
+        height: 450vh;
+    }
+}
+
 @media (orientation: portrait) and (max-width: 729px)
 {
     #section-5
