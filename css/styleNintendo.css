@@ -172,7 +172,7 @@ body
     margin: 5vw 5vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
@@ -229,7 +229,7 @@ body
     text-align: right;
 }
 
-@media (orientation: landscape) and (max-height: 550px)
+@media (orientation: landscape) and (max-height: 425px)
 {
     #Nintendo > #section-2 img, #Nintendo > #section-3 img, #Nintendo > #section-4 img
     {
@@ -774,6 +774,14 @@ body
     text-align: left;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #startPsPlus
+    {
+        height: 70vh;
+    }
+}
+
 @media (orientation: portrait) and (max-width: 729px)
 {
     #section-9
@@ -1261,6 +1269,34 @@ body
     transition: 1s outline;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-18
+    {
+        height: 150vh;
+    }
+
+    #section-18 > #blockLuks
+    {
+        height: 95vh;
+    }
+
+    #section-18 #blockBase
+    {
+        height: 85vh;
+    }
+
+    #section-18 #luks
+    {
+        height: 20vh;
+    }
+
+    #section-18 #base
+    {
+        height: 22vh;
+    }
+}
+
 @media (orientation: portrait)
 {
     #section-18 > div
@@ -1398,6 +1434,20 @@ body
 {
     text-align: left;
     width: 28vw;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-20,#section-21,#section-22,#section-23,#section-24,#section-25
+    {
+        height: 150vh;
+        justify-content: space-around;
+    }
+
+    .section-hard
+    {
+        height: 55vh;
+    }
 }
 
 @media (orientation: portrait)
@@ -1711,6 +1761,19 @@ body
     height: 3vw;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-26, #section-27, #section-28
+    {
+        height: 120vh;
+    }
+
+    #section-26 > div, #section-27 > div, #section-28 > div
+    {
+        height: 90vh;
+    }
+}
+
 @media (orientation: portrait)
 {
 
@@ -1898,6 +1961,19 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-30
+    {
+        height: 300vh;
+    }
+
+    #section-30 > div
+    {
+        grid-template-rows: repeat(3, 84vh);
+    }
 }
 
 @media (orientation: portrait)
