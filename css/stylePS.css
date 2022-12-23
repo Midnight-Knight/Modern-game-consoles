@@ -175,7 +175,7 @@ body
     margin: 5vw 5vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
@@ -231,6 +231,15 @@ body
     text-align: right;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #PlayStation > #section-2 img, #PlayStation > #section-3 img
+    {
+        width: 23vmax;
+        height: 23vmax;
+    }
+}
+
 @media (orientation: portrait)
 {
     #PlayStation > #section-2 > div, #PlayStation > #section-3 > div
@@ -280,6 +289,15 @@ body
     {
         width: 80vw;
     }
+}
+
+#section-4
+{
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #section-4 > video
@@ -1056,15 +1074,6 @@ body
     }
 }
 
-
-
-
-
-
-
-
-
-
 #section-17
 {
     display: flex;
@@ -1072,6 +1081,14 @@ body
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-17
+    {
+        height: 150vh;
+    }
 }
 
 @media (orientation: portrait)
@@ -1101,6 +1118,24 @@ body
 #section-17 #blockBase
 {
     height: 57vh;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-17 #blockLuks
+    {
+        height: 95vh;
+    }
+
+    #section-17 #blockExtra
+    {
+        height: 85vh;
+    }
+
+    #section-17 #blockBase
+    {
+        height: 85vh;
+    }
 }
 
 #section-17 > div
@@ -1174,6 +1209,24 @@ body
     background-color: black;
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
     height: 12vh;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-17 #luks
+    {
+        height: 18vh;
+    }
+
+    #section-17 #base
+    {
+        height: 22vh;
+    }
+
+    #section-17 #extra
+    {
+        height: 16vh;
+    }
 }
 
 #luks > h6
@@ -1361,6 +1414,20 @@ body
 {
     text-align: left;
     width: 28vw;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+    {
+        height: 150vh;
+        justify-content: space-around;
+    }
+
+    .section-hard
+    {
+        height: 60vh;
+    }
 }
 
 @media (orientation: portrait)
@@ -1619,6 +1686,19 @@ body
     height: 3vw;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-25, #section-26
+    {
+        height: 120vh;
+    }
+
+    #section-25 > div, #section-26 > div
+    {
+        height: 90vh;
+    }
+}
+
 @media (orientation: portrait)
 {
 
@@ -1800,6 +1880,19 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-28
+    {
+        height: 300vh;
+    }
+
+    #section-28 > div
+    {
+        grid-template-rows: repeat(3, 84vh);
+    }
 }
 
 @media (orientation: portrait)
