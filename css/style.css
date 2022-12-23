@@ -188,6 +188,14 @@ footer
     border-bottom: 0.2vmin solid white;
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    footer
+    {
+        height: 30vh;
+    }
+}
+
 footer > p
 {
     width: 40vw;
