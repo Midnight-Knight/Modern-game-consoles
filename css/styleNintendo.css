@@ -233,8 +233,8 @@ body
 {
     #Nintendo > #section-2 img, #Nintendo > #section-3 img, #Nintendo > #section-4 img
     {
-        width: 28vmin;
-        height: 28vmin;
+        width: 23vmax;
+        height: 23vmax;
     }
 }
 

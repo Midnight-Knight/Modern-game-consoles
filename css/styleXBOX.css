@@ -170,7 +170,7 @@ body
     margin: 5vw 5vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
@@ -226,12 +226,12 @@ body
     text-align: right;
 }
 
-@media (orientation: landscape) and (max-height: 550px)
+@media (orientation: landscape) and (max-height: 425px)
 {
     #XBOX > #section-2 img, #XBOX > #section-3 img
     {
-        width: 30vmin;
-        height: 30vmin;
+        width: 23vmax;
+        height: 23vmax;
     }
 }
 
@@ -1117,7 +1117,7 @@ body
 
 #section-17 #blockLuks
 {
-    height: 66vh;
+    height: 70vh;
 }
 
 #section-17 #blockExtra
@@ -1200,7 +1200,7 @@ body
 {
     background-color: black;
     box-shadow: 0 0 0.5vmax 0.5vmax rgba(0,0,0, 0.5);
-    height: 16vh;
+    height: 20vh;
 }
 
 #luks > p, #luks > h6
@@ -1398,6 +1398,20 @@ body
 {
     text-align: left;
     width: 28vw;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
+    {
+        height: 150vh;
+        justify-content: space-around;
+    }
+
+    .section-hard
+    {
+        height: 55vh;
+    }
 }
 
 @media (orientation: portrait)
@@ -1663,6 +1677,19 @@ body
     box-shadow: 0 0 0.3vw rgba(0,0,0,0.5);
 }
 
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-25, #section-26
+    {
+        height: 120vh;
+    }
+
+    #section-25 > div, #section-26 > div
+    {
+        height: 90vh;
+    }
+}
+
 @media (orientation: portrait)
 {
 
@@ -1868,6 +1895,19 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    #section-28
+    {
+        height: 300vh;
+    }
+
+    #section-28 > div
+    {
+        grid-template-rows: repeat(3, 84vh);
+    }
 }
 
 @media (orientation: portrait)
