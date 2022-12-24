@@ -1420,13 +1420,13 @@ body
 {
     #section-19,#section-20,#section-21,#section-22,#section-23,#section-24
     {
-        height: 150vh;
+        height: 160vh;
         justify-content: space-around;
     }
 
     .section-hard
     {
-        height: 60vh;
+        height: 65vh;
     }
 }
 
