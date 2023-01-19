@@ -1,4 +1,4 @@
-#home > div
+#start > #home > div
 {
     width: 70vw;
     height: 30vh;
@@ -13,7 +13,7 @@
     animation: start 2s 1;
 }
 
-#home > div *
+#start > #home > div *
 {
     color: black;
 }

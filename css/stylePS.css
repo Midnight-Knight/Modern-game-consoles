@@ -9,49 +9,11 @@ body
     background-size: auto 100%;
 }
 
-#section-1, #home
-{
-    height: 100vmin;
-    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
-}
-
-#PlayStation > #section-1, #PlayStation > #home
+#home
 {
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#PlayStation > #home > div
-{
-    animation: opacity 3s 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@keyframes opacity
-{
-    from
-    {
-        opacity: 0;
-    }
-    to
-    {
-        opacity: 1;
-    }
-}
-
-#PlayStation > #section-1 > div
-{
-    width: 100vmin;
-    height: 70vmin;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
 }
 
 @font-face {
@@ -64,180 +26,20 @@ body
     src: url(../font/zrnic___.ttf);
 }
 
-#PlayStation > #home > div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#PlayStation > #home #PSH
-{
-    text-align: center;
-}
-
-#PlayStation > #home h3
-{
-    text-align: center;
-}
-
-#PSH
+#NameCorporation
 {
     font-family: 'PS-2';
     color: rgb(0, 55, 145);
 }
 
-#PlayStation > #section-1 h2
+#home h2
 {
     font-family: 'PS';
 }
 
-#PlayStation > #section-1 img
-{
-    width: 100vmin;
-    height: 50vmin;
-    animation: none;
-}
-
-#ps5img
-{
-    transition: 2s;
-}
-
-@keyframes ps5png
-{
-    from
-    {
-        transform: translateY(25vmin);
-        opacity: 0;
-    }
-    to
-    {
-        transform: translateY(0vmin);
-        opacity: 1;
-    }
-}
-
-#PlayStation > #section-2
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    overflow: hidden;
-}
-
-#PlayStation > #section-3
-{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    overflow: hidden;
-}
-
-@keyframes lblock
-{
-    from
-    {
-        transform: translateX(-100vw);
-        opacity: 0;
-    }
-    to
-    {   
-        transform: translateX(0vw);
-        opacity: 1;
-    }
-}
-
-@keyframes rblock
-{
-    from
-    {
-        transform: translateX(100vw);
-        opacity: 0;
-    }
-    to
-    {   
-        transform: translateX(0vw);
-        opacity: 1;
-    }
-}
-
-#PlayStation > #section-2 > div, #PlayStation > #section-3 > div
-{
-    background-color: white;
-    border-radius: 2vmax;
-    width: 67vw;
-    height: 62vh;
-    padding: 1vw 1vh;
-    margin: 5vw 5vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
-}
-
-#PlayStation > #section-2 img, #PlayStation > #section-3 img
-{
-    width: 30vmax;
-    height: 30vmax;
-}
-
-#lblock
-{
-    width: 35vmax;
-    height: 30vmax;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-right: 1vw;
-}
-
-#lblock > h3
+#leftText > h3, #rightText > h3
 {
     font-family: 'PS-2';
-}
-
-#lblock > p
-{
-    text-align: left;
-}
-
-
-#rblock
-{
-    width: 35vmax;
-    height: 30vmax;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-left: 1vw;
-}
-
-#rblock > h3
-{
-    font-family: 'PS-2';
-}
-
-#rblock > p
-{
-    text-align: right;
-}
-
-@media (orientation: landscape) and (max-height: 425px)
-{
-    #PlayStation > #section-2 img, #PlayStation > #section-3 img
-    {
-        width: 23vmax;
-        height: 23vmax;
-    }
 }
 
 @media (orientation: portrait)
@@ -353,7 +155,7 @@ body
     text-shadow: 1px 1px rgb(0, 55, 145), 1px -1px rgb(0, 55, 145), -1px 1px rgb(0, 55, 145), -1px -1px rgb(0, 55, 145), 3px 3px 6px rgba(0,0,0,0.5);
 }
 
-#section-6, #section-7
+#Section-GameCard, #section-7
 {
     background-color: white;
 }
@@ -423,7 +225,7 @@ body
     transform: translateY(0);
 }
 
-#section-6
+#Section-GameCard
 {
     display: flex;
     justify-content: center;
@@ -497,7 +299,7 @@ body
         transform: translateY(0);
     }
 
-    #section-6
+    #Section-GameCard
     {
         display: flex;
         justify-content: center;
@@ -515,17 +317,17 @@ body
         grid-row-gap: 4vw;
     }
 
-    #section-6 #container .PsCardExc *
+    #Section-GameCard #container .PsCardExc *
     {
         font-size: 4vw;
     }
 
-    #section-6 #container .PsCardExc h6
+    #Section-GameCard #container .PsCardExc h6
     {
         font-size: 6vw;
     }
 
-    #section-6 #container .PsCardExc a
+    #Section-GameCard #container .PsCardExc a
     {
         width: 30vw;
         height: 8vw;
@@ -535,7 +337,7 @@ body
 
 @media (orientation: portrait) and (max-width: 729px)
 {
-    #section-6
+    #Section-GameCard
     {
         display: flex;
         justify-content: center;

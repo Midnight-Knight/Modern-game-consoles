@@ -178,6 +178,7 @@ header
     z-index: 10;
     border-bottom: 0.2vmin solid white;
     border-top: 0.2vmin solid white;
+    transition: transform 0.4s;
 }
 
 header img
@@ -253,11 +254,6 @@ nav
     flex-wrap: wrap;
 }
 
-#home
-{
-    padding-top: 7vh;
-}
-
 @media (orientation: portrait)
 {
     header
@@ -271,11 +267,6 @@ nav
         width: 30vh;
         height: 18vh;
         align-items: center;
-    }
-
-    #home
-    {
-        padding-top: 18vh;
     }
 }
 
@@ -299,11 +290,6 @@ nav
         height: 4vh;
         width: 10vh;
         font-size: 1.6vh;
-    }
-
-    #home
-    {
-        padding-top: 14vh;
     }
 
     header img
@@ -382,4 +368,196 @@ section
 a
 {
     text-decoration: none;
+}
+
+/* home */
+
+#home
+{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#home > #hello
+{
+    width: 100%;
+    animation: opacity 3s 1;
+}
+
+@keyframes opacity
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+#home > div
+{
+    width: 100vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home #NameCorporation, #home h3
+{
+    text-align: center;
+}
+
+#home img
+{
+    width: 100vmin;
+    height: 50vmin;
+    animation: none;
+}
+
+#FirstConsoleImg
+{
+    transition: 2s;
+}
+
+@keyframes FirstConsoleImg
+{
+    from
+    {
+        transform: translateY(25vmin);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateY(0vmin);
+        opacity: 1;
+    }
+}
+
+/* Section-StartBlockConsole */
+
+#Section-StartBlockConsole
+{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.LeftSide, .RightSide
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LeftSide
+{
+    justify-content: flex-start;
+}
+
+.RightSide
+{
+    justify-content: flex-end;
+}
+
+.StartBlockConsole
+{
+    background-color: white;
+    border-radius: 2vmax;
+    width: 67vw;
+    height: 62vh;
+    padding: 1vw 1vh;
+    margin: 5vw 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 1vmax 1vmax rgba(255, 255, 255,0.5);
+}
+
+.StartBlockConsole > img
+{
+    width: 30vmax;
+    height: 30vmax;
+}
+
+#leftText
+{
+    width: 35vmax;
+    height: 30vmax;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 1vw;
+}
+
+#leftText > p
+{
+    text-align: left;
+}
+
+#rightText
+{
+    width: 35vmax;
+    height: 30vmax;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 1vw;
+}
+
+#rightText > p
+{
+    text-align: right;
+}
+
+@media (orientation: landscape) and (max-height: 425px)
+{
+    .StartBlockConsole > img
+    {
+        width: 23vmax;
+        height: 23vmax;
+    }
+}
+
+@keyframes AnimationLeftBlock
+{
+    from
+    {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
+
+@keyframes AnimationRightBlock
+{
+    from
+    {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateX(0vw);
+        opacity: 1;
+    }
 }

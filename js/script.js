@@ -1,3 +1,19 @@
+let heightConst = 0;
+
+window.addEventListener('scroll', function () {
+    let height = window.scrollY;
+    if (height > heightConst)
+    {
+        document.getElementById('header').style.transform = "translateY(-12.4vh)";
+        heightConst = height;
+    }
+    else  if (heightConst - height > 350 || height < 151)
+    {
+        document.getElementById('header').style.transform = "translateY(0vh)";
+        heightConst = height;
+    }
+})
+
 var options75 = {
     root: document.querySelector('#viewport'),
     rootMargin: '100% 0px 0px 0px',
@@ -24,7 +40,7 @@ let callback1 = function(entries, observer){
         {
             obj1 = true;
         }
-        entry.target.style.animation = obj1 ? "ps5png 1.5s 1 running" : "ps5png 1.5s 1 paused";
+        entry.target.style.animation = obj1 ? "FirstConsoleImg 1.5s 1 running" : "FirstConsoleImg 1.5s 1 paused";
     });
 };
 
@@ -216,7 +232,7 @@ var observerSec25 = new IntersectionObserver(callbackSec25, options65);
 var observerSec26 = new IntersectionObserver(callbackSec26, options65);
 var observer8 = new IntersectionObserver(callback8, options75);
 
-let target1 = document.getElementById("ps5img");
+let target1 = document.getElementById("FirstConsoleImg");
 observer1.observe(target1);
 let target2 = document.getElementById("section-2");
 observer2.observe(target2);

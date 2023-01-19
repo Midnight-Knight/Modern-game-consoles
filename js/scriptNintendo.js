@@ -1,3 +1,19 @@
+let heightConst = 0;
+
+window.addEventListener('scroll', function () {
+    let height = window.scrollY;
+    if (height > heightConst)
+    {
+        document.getElementById('header').style.transform = "translateY(-12.4vh)";
+        heightConst = height;
+    }
+    else  if (heightConst - height > 350 || height < 151)
+    {
+        document.getElementById('header').style.transform = "translateY(0vh)";
+        heightConst = height;
+    }
+})
+
 var options75 = {
     root: document.querySelector('#viewport'),
     rootMargin: '100% 0px 0px 0px',
